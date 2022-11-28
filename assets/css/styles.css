@@ -1,6 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Source+Sans+Pro&display=swap');
 
+* {
+
+}
+
 body {
-    font-family: Source-Sans-Pro, sans-serif;    
-    
+    font-family: Source-Sans-Pro, sans-serif;
+    color: #8481A4;    
+}
+
+/* Headings and logo */
+
+h1, h2 {
+    font-family: Playfair Display, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+#logo {
+    font-size: 250%;
 }
