@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Source+Sans+Pro&display=swap');
 
 * {
-
+    margin: 0;
+    padding: 0;
+    border: none;
 }
 
 body {
@@ -18,5 +20,23 @@ h1, h2 {
 }
 
 #logo {
-    font-size: 250%;
+    font-size: 2.5rem;
+    text-align: center;
 }
+
+/* Nav links */
+
+#menu {
+    font-size: 1.1rem;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+#menu li {
+    list-style-type: none;
+    display: inline;
+    margin-right: 7px;
+}
+
+
+
