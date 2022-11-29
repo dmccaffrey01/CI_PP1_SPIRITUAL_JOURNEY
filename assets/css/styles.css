@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Qwigley&family=Source+Sans+Pro&display=swap');
 
 * {
     margin: 0;
@@ -8,7 +8,7 @@
 
 body {
     font-family: Source-Sans-Pro, sans-serif;
-    color: #8481A4;    
+    color: black;    
 }
 
 /* Headings and Header */
@@ -109,20 +109,20 @@ section {
 
 /* Welcome image section*/
 
-#welcome-image-section {
+#welcome-image-section-hp {
     height: 900px;
     width: 100%;
     overflow: hidden;
     position: relative;
 }
 
-#welcome-image {
+#welcome-image-hp {
     height: 900px;
     width: 100%;
     background: url(../images/meditate-on-beach-welcome-page.jpg) no-repeat center center;
 }
 
-#welcome-quote{
+#welcome-quote-hp {
     position: absolute;
     width: 80%;
     bottom: 30px;
@@ -130,10 +130,32 @@ section {
     color: white;
 }
 
-#welcome-quote h3 {
-    font-size: 30px;
+#welcome-quote-hp h3 {
+    font-size: 30px; 
 }
 
 
+/* Description section home page */
+
+.card {
+    background-color: #8481A4;
+    border-radius: 5px;
+    color: white;
+    padding: 20px;
+    width: 70%;
+    margin: 20px auto 0 auto;
+}
+
+.card h2 {
+    border-bottom: 2px solid white;
+    color: #d4d3d3;
+    text-align: center;
+    font-size: 30px;
+}
+
+.card p {
+    margin-top: 10px;
+    font-size: 20px;
+}
 
 
