@@ -34,15 +34,16 @@ header a {
 #logo {
     width: 50%;
     float: left;
-    height: 75px;
+    margin-top: 3px;
+    margin-left: 5px;
     background-color: blue;
 }
 
-/* Nav menu and links */
-
-#menu-btn {
-    
+#logo a:hover {
+    color: white;
 }
+
+/* Nav menu and links */
 
 .menu-btn {
     font-size: 30px;
