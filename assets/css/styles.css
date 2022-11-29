@@ -31,11 +31,31 @@ header a {
 /* Logo */
 
 #logo {
-    width: 40%;
-    background-color: red;
+    width: 50%;
+    float: left;
+    height: 75px;
+    background-color: blue;
 }
 
-/* Nav links */
+/* Nav menu and links */
+
+#menu-btn {
+    background-color: green;
+    float: right;
+}
+
+.menu-btn {
+    font-size: 30px;
+    color: white;
+    display: block;
+    line-height: 75px;
+    margin-right: 40px;
+    cursor: pointer;
+}
+
+#check {
+    display: none;
+}
 
 #menu {
     font-size: 1.1rem;
