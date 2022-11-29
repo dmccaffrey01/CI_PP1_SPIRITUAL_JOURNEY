@@ -36,10 +36,14 @@ header a {
     float: left;
     margin-top: 3px;
     margin-left: 5px;
-    background-color: blue;
+    background-color: inherit;
 }
 
-#logo a:hover {
+#logo h1 {
+    font-size: 25px;
+}
+
+#logo:hover {
     color: white;
 }
 
@@ -52,7 +56,7 @@ header a {
     line-height: 75px;
     margin-right: 40px;
     cursor: pointer;
-    background-color: green;
+    background-color: inherit;
     float: right;
 }
 
@@ -64,13 +68,14 @@ header a {
     font-size: 1.1rem;
     letter-spacing: 2px;
     text-align: center;
-    background-color: red;
+    background-color: #423f996e;
     position: fixed;
     width: 100%;
     height: 100vh;
     width: 100%;
     height: 100vh;
     top: 75px;
+    z-index: 99;
     left: -100%;
     transition: all .5s;
 }
@@ -100,4 +105,30 @@ header a {
 
 section {
     clear: both;
+}
+
+/* Welcome image section*/
+
+#welcome-image-section {
+    height: 900px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+#welcome-image {
+    height: 900px;
+    width: 100%;
+    background: url(../images/meditate-on-beach-welcome-page.jpg) no-repeat center center;
+}
+
+#welcome-quote{
+    position: absolute;
+    bottom: 30px;
+    left: 20px;
+    color: white;
+}
+
+#welcome-quote h3 {
+    font-size: 30px;
 }
