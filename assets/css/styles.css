@@ -124,11 +124,16 @@ section {
 
 #welcome-quote{
     position: absolute;
+    width: 80%;
     bottom: 30px;
-    left: 20px;
+    margin: 0 10%;
     color: white;
 }
 
 #welcome-quote h3 {
     font-size: 30px;
 }
+
+
+
+
