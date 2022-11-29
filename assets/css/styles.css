@@ -20,7 +20,6 @@ h1, h2 {
 }
 
 header {
-    height: 150px;
     background-color: #8481A4;
 }
 
@@ -32,7 +31,8 @@ header a {
 /* Logo */
 
 #logo {
-    width: 200px;
+    width: 40%;
+    background-color: red;
 }
 
 /* Nav links */
@@ -41,18 +41,26 @@ header a {
     font-size: 1.1rem;
     letter-spacing: 2px;
     text-align: center;
+    background-color: red;
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    width: 100%;
+    height: 50vh;
+    top: 75px;
+    left: 0;
 }
 
 #menu li {
     list-style-type: none;
-    display: inline;
-    margin-right: 10px;
-    margin-top: 5px;
+    display: block;
+    margin-top: 3px;
 }
 
 #menu a {
     text-decoration: none;
     color: white;
+    font-size: 20px;
 }
 
 #menu a:hover, .active {
