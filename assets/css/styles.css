@@ -21,6 +21,7 @@ h1, h2 {
 
 header {
     background-color: #8481A4;
+    height: 75px;
 }
 
 header a {
@@ -40,8 +41,7 @@ header a {
 /* Nav menu and links */
 
 #menu-btn {
-    background-color: green;
-    float: right;
+    
 }
 
 .menu-btn {
@@ -51,6 +51,8 @@ header a {
     line-height: 75px;
     margin-right: 40px;
     cursor: pointer;
+    background-color: green;
+    float: right;
 }
 
 #check {
@@ -66,15 +68,20 @@ header a {
     width: 100%;
     height: 100vh;
     width: 100%;
-    height: 50vh;
+    height: 100vh;
     top: 75px;
+    left: -100%;
+    transition: all .5s;
+}
+
+#check:checked ~ #menu {
     left: 0;
 }
 
 #menu li {
     list-style-type: none;
     display: block;
-    margin-top: 3px;
+    padding: 20px;
 }
 
 #menu a {
@@ -85,4 +92,11 @@ header a {
 
 #menu a:hover, .active {
     border-bottom: 2px solid white;
+}
+
+
+/* Section */
+
+section {
+    clear: both;
 }
