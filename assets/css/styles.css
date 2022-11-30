@@ -8,7 +8,8 @@
 
 body {
     font-family: Source-Sans-Pro, sans-serif;
-    color: black;    
+    color: black;
+    background-color: #95deff;    
 }
 
 /* Headings and Header */
@@ -138,17 +139,13 @@ section {
 
 /* Description section home page */
 
-#description-section-hp {
-    background-color: #95deff; 
-}
-
 .card {
     background-color: #8481A4;
     border-radius: 10px;
     color: white;
     padding: 20px;
-    width: 70%;
-    margin: 15px auto
+    width: 80%;
+    margin: 15px auto 15px auto;
 }
 
 .card h2 {
@@ -163,8 +160,17 @@ section {
     font-size: 20px;
 }
 
-.empty-space {
-    width: 100%;
-    height: 10px;
+
+/* Benefits section home page */
+
+#benefits-quote-hp {
+    background-color: #d4d3d3;
 }
 
+#benefits-quote-text-hp, #benefits-quote-author-hp {
+    color: white;
+}
+
+.benefits {
+    background-color: rgb(106, 209, 128);
+}
