@@ -4,8 +4,7 @@
     --SKY: #CAEBF2;
     --CARBON: #A9A9A9;
     --NEUTRAL: #EFEFEF;
-    --MAIN-TEXT: rgb(70, 67, 67);
-    --WATERMELON: #FF3B3F;
+    --MAIN-TEXT: rgba(70, 67, 67, 1);
 }
 
 * {
@@ -17,7 +16,7 @@
 body {
     font-family: Source-Sans-Pro, sans-serif;
     color: black;
-    background-color: #95deff;    
+    background-color: var(--NEUTRAL);    
 }
 
 /* Headings and Header */
@@ -147,23 +146,22 @@ section {
 
 /* Description section home page */
 
-#welcome-intro-hp {
-    background-color: var(--NEUTRAL);
-    text-align: center;
-}
-
 .text-wrapper {
     width: 90%;
     margin: 0 auto;
+    text-align: center;
 }
 
-#welcome-intro-hp h2 {
-    padding: 10px;
-    color: var(--MAIN-TEXT);
+.title {
+    color: white;
+    background-color: var(--MAIN-TEXT);
+    text-align: center;
+    padding: 30px;
 }
 
-#welcome-into-hp p {
+.text {
     color: var(--MAIN-TEXT);
+    padding: 20px 0;
 }
 
 /* Benefits section home page */
