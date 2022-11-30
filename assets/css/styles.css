@@ -237,11 +237,8 @@ section {
 
 #continue-end-button-choice {
     width: 70%;
-    margin: 0 auto;
-    text-align: center;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-column-gap: 10px;
+    margin: 0 auto 20px auto;
+    text-align: center; 
 }
 
 #red-pill {
@@ -253,9 +250,30 @@ section {
 }
 
 .btn-choice {
-    padding: 10px 15px 10px 15px;
+    padding: 10px;
     border-radius: 10px;
-    width: 150px;
+    width: 100px;
     color: var(--NEUTRAL);
     cursor: pointer;
+}
+
+/* Footer */
+
+footer {
+    height: 75px;
+    background-color: var(--SKY);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.copyright {
+    color: var(--CARBON);
+    width: 30%;
+}
+
+.social-media-links i {
+    font-size: 35px;
+    color: white;
+    margin: 0 5px 0 5px;
 }
