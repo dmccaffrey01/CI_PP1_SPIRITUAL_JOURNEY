@@ -76,7 +76,7 @@ header a {
     font-size: 1.1rem;
     letter-spacing: 2px;
     text-align: center;
-    background-color: #418ace6e;
+    background-color: #caebf283;
     position: fixed;
     width: 100%;
     height: 100vh;
@@ -119,16 +119,16 @@ section {
 /* Welcome image section*/
 
 #welcome-image-section-hp {
-    height: 900px;
+    height: 600px;
     width: 100%;
     overflow: hidden;
     position: relative;
 }
 
 #welcome-image-hp {
-    height: 900px;
+    height: 600px;
     width: 100%;
-    background: url(../images/meditate-on-beach-welcome-page.jpg) no-repeat center center;
+    background: url(../images/sky-meditation-home-page.webp) no-repeat center center;
 }
 
 #welcome-quote-hp {
@@ -164,16 +164,14 @@ section {
     padding: 20px 0;
 }
 
+.btn {
+    background-color: var(--SKY);
+    padding: 20px;
+    border-radius: 50px;
+    color: white;
+    margin: 10px auto 20px auto;
+    cursor: pointer;
+}
+
 /* Benefits section home page */
 
-#benefits-quote-hp {
-    background-color: #d4d3d3;
-}
-
-#benefits-quote-text-hp, #benefits-quote-author-hp {
-    color: white;
-}
-
-.benefits {
-    background-color: rgb(106, 209, 128);
-}
