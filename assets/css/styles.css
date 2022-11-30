@@ -5,6 +5,7 @@
     --CARBON: #A9A9A9;
     --NEUTRAL: #EFEFEF;
     --MAIN-TEXT: rgba(70, 67, 67, 1);
+    --BENEFIT-CARD: rgb(55, 133, 48)
 }
 
 * {
@@ -135,7 +136,7 @@ section {
     position: absolute;
     width: 80%;
     bottom: 30px;
-    margin: 0 10%;
+    left: 20px;
     color: white;
 }
 
@@ -174,4 +175,30 @@ section {
 }
 
 /* Benefits section home page */
+
+.quote {
+    background-color: var(--CARBON);
+    color: var(--NEUTRAL);
+    padding: 20px;
+    font-size: 1.2rem;
+}
+
+.benefit-card {
+    width: 80%;
+    background-color: rgb(55, 133, 48);
+    margin: 0 auto 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.card-title {
+    color: white;
+    border-bottom: 2px solid white;
+}
+
+.card-text {
+    color: var(--NEUTRAL);
+    padding: 20px 0 10px 0;
+}
 
