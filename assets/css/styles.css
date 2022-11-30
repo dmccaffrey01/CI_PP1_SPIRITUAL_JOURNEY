@@ -234,3 +234,28 @@ section {
     background: url(../images/matrix-redpill-bluepill-1.1.jpg);
     border-radius: 50%;
 }
+
+#continue-end-button-choice {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 10px;
+}
+
+#red-pill {
+    background-color: rgb(187, 36, 36);
+}
+
+#blue-pill {
+    background-color: rgb(60, 181, 218);
+}
+
+.btn-choice {
+    padding: 10px 15px 10px 15px;
+    border-radius: 10px;
+    width: 150px;
+    color: var(--NEUTRAL);
+    cursor: pointer;
+}
