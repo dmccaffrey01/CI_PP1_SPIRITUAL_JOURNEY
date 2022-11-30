@@ -216,3 +216,21 @@ section {
     padding: 10px;
     margin: 20px auto 20px auto;
 }
+
+
+/* Continue further section */
+
+#continue-further-image-border {
+    width: 300px;
+    height: 300px;
+    background-color: var(--CARBON);
+    border-radius: 50%;
+    padding: 10px;
+    margin: 10px auto 20px auto;
+}
+
+#continue-further-image {
+    height: 100%;
+    background: url(../images/matrix-redpill-bluepill-1.1.jpg);
+    border-radius: 50%;
+}
