@@ -281,7 +281,7 @@ footer {
 
 /* Contact us section */
 
-#contact-us a {
+.text-wrapper a {
     color: var(--DARK-SKY)
 }
 
