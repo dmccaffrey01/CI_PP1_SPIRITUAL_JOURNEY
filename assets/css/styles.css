@@ -346,3 +346,44 @@ footer {
     border-radius: 10px;
     padding: 20px;
 }
+
+.practice-examples {
+    margin-bottom: 20px;
+}
+
+.practice-examples p {
+    margin-bottom: 10px;
+}
+
+.practice-examples li {
+    list-style-type: none;
+    margin-bottom: 4px;
+}
+
+/* Generating self knowledge section */
+
+#self-enquiry-list {
+    background-color: var(--CARBON);
+    border-radius: 10px;
+}
+
+#self-enquiry-list p {
+    color: white;
+}
+
+#self-enquiry-list ul {
+    width: 76%;
+    margin: 0 auto;
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+#self-enquiry-list span {
+    color: white;
+    margin-right: 5px;
+}
+
+#self-enquiry-list li {
+    list-style-type: none;
+    margin-bottom: 10px;
+}
