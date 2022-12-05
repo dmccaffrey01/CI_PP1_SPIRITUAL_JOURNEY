@@ -118,7 +118,7 @@ section {
     margin: 0;
 }
 
-/* Welcome image section*/
+/* Welcome image section home page*/
 
 #welcome-image-section-hp {
     height: 600px;
@@ -309,4 +309,31 @@ footer {
 .googlemap-border iframe {
     margin-top: 10px;
     border-radius: 10px;
+}
+
+/* Elightenment page welcome image section */
+
+#welcome-image-section-ep {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+#welcome-image-ep {
+    height: 600px;
+    width: 100%;
+    background: url(../images/enlightenment-under-a-tree-page-2.jpg) no-repeat center center;
+}
+
+#welcome-quote-ep {
+    position: absolute;
+    width: 80%;
+    bottom: 20px;
+    left: 15px;
+    color: white;
+}
+
+#welcome-quote-ep h3 {
+    font-size: 20px; 
 }
