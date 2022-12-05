@@ -337,3 +337,12 @@ footer {
 #welcome-quote-ep h3 {
     font-size: 20px; 
 }
+
+/* Generating peace section */
+
+.practice-heading {
+    background-color: var(--CARBON);
+    color: white;
+    border-radius: 10px;
+    padding: 20px;
+}
