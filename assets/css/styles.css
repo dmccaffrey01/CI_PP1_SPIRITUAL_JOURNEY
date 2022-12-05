@@ -360,6 +360,12 @@ footer {
     margin-bottom: 4px;
 }
 
+.practice-examples a {
+    font-size: 20px;
+    color: var(--DARK-SKY);
+    text-decoration: none;
+}
+
 /* Generating self knowledge section */
 
 #self-enquiry-list {
