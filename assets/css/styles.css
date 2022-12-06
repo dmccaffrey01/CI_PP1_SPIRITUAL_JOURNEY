@@ -393,3 +393,39 @@ footer {
     list-style-type: none;
     margin-bottom: 10px;
 }
+
+/* Book recommendations section */
+
+.books-container {
+    display: flex;
+}
+
+.book-col {
+    width: 33%;
+}
+
+.book-card {
+    background-color: var(--SKY);
+    width: 80%;
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.book-card img {
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.book-info {
+    background-color: var(--CARBON);
+    color: white;
+    padding: 10px;
+    border-radius: 0px 0px 10px 10px;
+    font-size: 0.6rem;
+    height: 50px; 
+}
+
+
