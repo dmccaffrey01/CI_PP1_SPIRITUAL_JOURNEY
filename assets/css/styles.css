@@ -463,3 +463,41 @@ footer {
     width: 100%;
     border-radius: 10px;
 }
+
+/* Youtube links section */
+
+#youtubers-list {
+    list-style-type: none;
+   
+}
+
+#youtubers-list li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 0px 10px 0px;
+}
+
+.yt-link-text {
+    font-size: 1.5rem;
+    width: 175px;
+    margin-right: 5px;
+}
+
+.yt-link-text a {
+    text-decoration: none;
+}
+
+.profile-pic-border {
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    padding: 5px;
+    background-color: var(--SKY);
+    margin-left: 5px;
+}
+
+.profile-pic {
+    height: 100%;
+    border-radius: 50%;
+}
