@@ -398,6 +398,7 @@ footer {
 
 .books-container {
     display: flex;
+    margin-top: 20px;
 }
 
 .book-col {
