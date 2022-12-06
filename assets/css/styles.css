@@ -6,7 +6,7 @@
     --CARBON: #A9A9A9;
     --NEUTRAL: #EFEFEF;
     --MAIN-TEXT: rgba(70, 67, 67, 1);
-    
+    --DROPDOWN-MENU: rgba(70, 67, 67, 0.7);
 }
 
 * {
@@ -78,7 +78,7 @@ header a {
     font-size: 1.1rem;
     letter-spacing: 2px;
     text-align: center;
-    background-color: #9ee3f3c4;
+    background-color: var(--DROPDOWN-MENU);
     position: fixed;
     width: 100%;
     height: 100vh;
@@ -139,6 +139,9 @@ section {
     bottom: 30px;
     left: 20px;
     color: white;
+    background-color: var(--DROPDOWN-MENU);
+    padding: 20px;
+    border-radius: 10px;
 }
 
 #welcome-quote-hp h3 {
@@ -181,7 +184,7 @@ section {
     background-color: var(--CARBON);
     color: var(--NEUTRAL);
     padding: 20px;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
 }
 
 .benefit-card {
@@ -193,12 +196,12 @@ section {
     text-align: center;
 }
 
-.card-title {
+.benefit-card-title {
     color: white;
     border-bottom: 2px solid white;
 }
 
-.card-text {
+.benefit-card-text {
     color: white;
     padding: 20px 0 5px 0;
 }
@@ -332,10 +335,13 @@ footer {
     bottom: 20px;
     left: 15px;
     color: white;
+    background-color: var(--DROPDOWN-MENU);
+    padding: 20px;
+    border-radius: 10px;
 }
 
 #welcome-quote-ep h3 {
-    font-size: 20px; 
+    font-size: 1.3rem; 
 }
 
 /* Generating peace section */
