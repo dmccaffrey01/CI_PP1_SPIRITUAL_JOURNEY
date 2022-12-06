@@ -396,16 +396,16 @@ footer {
 
 /* Book recommendations section */
 
-.books-container {
+.display-container {
     display: flex;
-    margin-top: 20px;
+    margin: 20px 0 20px 0;
 }
 
-.book-col {
+.display-col {
     width: 33%;
 }
 
-.book-card {
+.display-card {
     background-color: var(--SKY);
     width: 80%;
     border-radius: 10px;
@@ -414,19 +414,33 @@ footer {
     margin: 0 auto;
 }
 
-.book-card img {
+.display-card img {
     width: 100%;
     margin: 0 auto;
     border-radius: 10px 10px 0px 0px;
 }
 
-.book-info {
+.display-info {
     background-color: var(--CARBON);
     color: white;
     padding: 10px;
     border-radius: 0px 0px 10px 10px;
-    font-size: 0.6rem;
+    font-size: 80%;
     height: 50px; 
 }
 
+.reduce-font-size {
+    font-size: 90%;
+}
+
+/* Meditation apps section */
+
+.display-info-app {
+    background-color: var(--CARBON);
+    color: white;
+    padding: 10px;
+    border-radius: 0px 0px 10px 10px;
+    font-size: 80%;
+    height: 25px; 
+}
 
