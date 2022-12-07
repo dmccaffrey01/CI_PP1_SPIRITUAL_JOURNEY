@@ -519,6 +519,10 @@ footer {
     font-size: 90%;
 }
 
+.middle-display {
+    margin: 20px auto 10px auto;
+}
+
 /* Meditation apps section */
 
 .display-info-app {
@@ -530,24 +534,42 @@ footer {
     height: 25px; 
 }
 
+/* Retreats section */
+
+.retreat-image-border {
+    width: 80%;
+    border-radius: 10px;
+    background-color: var(--SKY);
+    padding: 5px;
+    margin: 0 auto 20px auto;
+}
+
+.retreat-image-border img {
+    width: 100%;
+    border-radius: 10px;
+}
+
 /* Maps of enlightenment section */
+
+.maps-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: -10px auto 20px auto;
+}
 
 .map-border  {
     background-color: var(--SKY);
-    width: 100%;
-    border-radius: 10px;
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
     padding: 5px;
-    margin-bottom: 20px;
+    margin: 0 5px 0 5px;
 }
 
-#nanas-jhanas-map-image {
-    width: 100%;
-    border-radius: 10px;
-}
-
-#arising-passing-away-map-image {
-    width: 100%;
-    border-radius: 10px;
+.map-border img {
+    height: 100%;
+    border-radius: 50%;
 }
 
 /* Youtube links section */
