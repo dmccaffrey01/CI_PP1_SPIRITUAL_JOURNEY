@@ -840,4 +840,237 @@ footer {
     #self-enquiry-list span {
         font-size: 1.8rem;
     }
+
+    /* Book recommendations section */
+
+    .display-container {
+        max-width: 900px;
+        margin: 20px auto;
+    }
+
+    /* Maps of enlightenment section */
+
+    .map-border {
+        width: 200px;
+        height: 200px;
+    }
+
+    /* Youtube links section */
+
+    .yt-link-text {
+        font-size: 2rem;
+        width: 200px;
+    }
+
+    .profile-pic-border {
+        width: 150px;
+        height: 150px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    /* Header */
+    
+    header {
+        height: 125px;
+    }
+
+    /* Logo */
+
+    #logo h1 {
+        font-size: 2.5rem;
+    }
+
+    /* Nav menu */
+
+    .menu-btn {
+        font-size: 3.5rem;
+        line-height: 125px;
+    }
+
+    #menu {
+        font-size: 4rem;
+        top: 125px;
+    }
+
+    /* Hero image section home page */
+
+    #hero-image-section-hp {
+        height: 900px;
+    }
+
+    #hero-image-hp {
+        background: url(../images/sky-meditation-home-page-2.jpg) no-repeat;
+        height: 900px;
+    }
+
+    /* Description section home page */
+
+    .text-wrapper {
+        max-width: 900px;
+    }
+    
+    .title {
+        font-size: 4rem;
+    }
+
+    .text {
+        font-size: 1.8rem;
+    }
+
+    .btn {
+        font-size: 1.6rem;
+    }
+
+    /* Benefits section home page */
+
+    .quote {
+        font-size: 2rem;
+    }
+
+    .quote-text {
+        width: 900px;
+        margin: 0 auto;
+    }
+
+    .quote-author {
+        margin: 0 auto;
+        width: 900px;
+    }
+
+    .benefit-card {
+        width: 300px;
+        height: 350px;
+    }
+
+    .benefit-card-title {
+        font-size: 2rem;
+    }
+
+    .benefit-card-text {
+        font-size: 1.6rem;
+    }
+
+    .benefit-group {
+        display: flex;
+        width: 900px;
+        margin: 0 auto;
+    }
+
+    /* Continue further section */
+
+    .btn-choice {
+        font-size: 1.6rem;
+    }
+
+    /* Contact us section */
+
+    #contact-us i {
+        font-size: 4rem;
+    }
+
+    .address-title {
+        font-size: 1.8rem;
+    }
+
+    .address {
+        font-size: 1.6rem;
+    }
+
+    /* Enlightenment page description section */
+
+    .desc-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 900px;
+        margin: 0 auto;
+    }
+
+    .desc-text {
+        width: 58%;
+        margin: 40px 0 40px 0;
+    }
+
+    .desc-image {
+        width: 30vw;
+        height: 30vw;
+        margin: 0 5px 0 5px;
+    }
+
+    .flip {
+        flex-direction: row-reverse;
+    }
+
+    /* Techniques intro sectin */
+
+    .meditate-sit-image-border {
+        width: 600px;
+        height: 600px;
+    }
+
+    /* Gererating peace section */
+
+    .practice-heading {
+        font-size: 2.2rem;
+    }
+
+    .example-heading {
+        font-size: 2rem;
+    }
+
+    .practice-examples a {
+        font-size: 2rem;
+    }
+
+    /* Generating self knowledge section */
+
+    #self-enquiry-list p {
+        font-size: 2.2rem;
+    }
+
+    #self-enquiry-list li {
+        font-size: 1.8rem;
+    }
+
+    #self-enquiry-list span {
+        font-size: 2rem;
+    }
+
+    .waves-image-border {
+        width: 600px;
+        height: 600px;
+    }
+
+    /* Book recommendations section */
+
+    .display-container {
+        width: 900px;
+        margin: 20px auto;
+    }
+
+    /* Retreats section */
+
+    .retreat-image img {
+        width: 600px;
+    }
+
+    /* Maps of enlightenment section */
+
+    .map-border {
+        width: 250px;
+        height: 250px;
+    }
+
+    /* Youtube links section */
+
+    .yt-link-text {
+        font-size: 2rem;
+        width: 200px;
+    }
+
+    .profile-pic-border {
+        width: 200px;
+        height: 200px;
+    }
 }
