@@ -394,6 +394,7 @@ footer {
 
 .address-title {
     margin: 20px auto 10px auto;
+    color: var(--MAIN-TEXT);
 }
 
 .googlemap-border {
@@ -402,7 +403,7 @@ footer {
     background-color: var(--SKY);
     border-radius: 10px;
     margin: 20px auto 20px auto;
-    padding: 5px
+    padding: 5px;
 }
 
 .googlemap-border iframe {
@@ -679,10 +680,28 @@ footer {
 }
 
 @media screen and (min-width: 760px) {
-    /* Header section */
+    /* Header */
     
+    header {
+        height: 100px;
+    }
+
+    /* Logo */
+
+    #logo h1 {
+        font-size: 2rem;
+    }
+
+    /* Nav menu */
+
+    .menu-btn {
+        font-size: 3rem;
+        line-height: 100px;
+    }
+
     #menu {
         font-size: 2.5rem;
+        
     }
 
     /* Description section home page */
@@ -742,4 +761,22 @@ footer {
         border-radius: 15px;
     }
 
+    /* Contact us section */
+
+    #contact-us i {
+        font-size: 3rem;
+    }
+
+    .address-title {
+        font-size: 1.6rem;
+    }
+
+    .address {
+        font-size: 1.4rem;
+    }
+
+    .googlemap-border {
+        width: 400px;
+        height: 400px;
+    }
 }
