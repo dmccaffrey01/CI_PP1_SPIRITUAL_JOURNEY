@@ -503,7 +503,7 @@ footer {
     height:70vw;
     border-radius: 50%;
     background-color: var(--SKY);
-    padding: 5px;
+    padding: 3px;
     margin: 0 auto 0 auto;
 }
 
@@ -517,6 +517,8 @@ footer {
 #self-enquiry-list {
     background-color: var(--CARBON);
     border-radius: 10px;
+    border: 2px solid white;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
 }
 
 #self-enquiry-list p {
@@ -546,7 +548,7 @@ footer {
 .waves-image-border {
     width: 70vw;
     height: 70vw;
-    padding: 5px;
+    
     background-color: var(--SKY);
     border-radius: 10px;
     margin: 0 auto;
@@ -569,10 +571,9 @@ footer {
 }
 
 .display-card {
-    background-color: var(--SKY);
+    background-color: var(--CARBON);
     width: 80%;
     border-radius: 10px;
-    padding: 5px;
     text-align: center;
     margin: 0 auto;
 }
@@ -589,7 +590,7 @@ footer {
     padding: 10px;
     border-radius: 0px 0px 10px 10px;
     font-size: 80%;
-    height: 50px; 
+    height: 50px;
 }
 
 .reduce-font-size {
@@ -613,17 +614,10 @@ footer {
 
 /* Retreats section */
 
-.retreat-image-border {
-    width: 80%;
+.retreat-image img {
+    width: 70vw;
     border-radius: 10px;
-    background-color: var(--SKY);
-    padding: 5px;
     margin: 0 auto 20px auto;
-}
-
-.retreat-image-border img {
-    width: 100%;
-    border-radius: 10px;
 }
 
 /* Maps of enlightenment section */
@@ -640,7 +634,7 @@ footer {
     width: 125px;
     height: 125px;
     border-radius: 50%;
-    padding: 5px;
+    padding: 3px;
     margin: 0 5px 0 5px;
 }
 
@@ -677,7 +671,7 @@ footer {
     width: 125px;
     height: 125px;
     border-radius: 50%;
-    padding: 5px;
+    padding: 3px;
     background-color: var(--SKY);
     margin-left: 5px;
 }
