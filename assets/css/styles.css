@@ -217,17 +217,15 @@ section {
 #benefits-image {
     height: 100%;
     border-radius: 50%;
-    border: 2px solid white;
 }
 
 #benefits-image-border {
-    width: 300px;
-    height: 300px;
+    width: 275px;
+    height: 275px;
     background-color: var(--SKY);
     border-radius: 50%;
-    padding: 10px;
+    padding: 5px;
     margin: 20px auto 20px auto;
-    border: 2px solid white;
     box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
 }
 
@@ -235,11 +233,11 @@ section {
 /* Continue further section */
 
 #continue-further-image-border {
-    width: 300px;
-    height: 300px;
+    width: 275px;
+    height: 275px;
     background-color: var(--CARBON);
     border-radius: 50%;
-    padding: 10px;
+    padding: 5px;
     margin: 10px auto 20px auto;
     box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
 }
@@ -398,12 +396,12 @@ footer {
 }
 
 .googlemap-border {
-    width: 300px;
-    height: 300px;
+    width: 275px;
+    height: 275px;
     background-color: var(--SKY);
     border-radius: 10px;
     margin: 20px auto 20px auto;
-    padding: 5px;
+    padding: 2px;
 }
 
 .googlemap-border iframe {
@@ -412,7 +410,7 @@ footer {
     border-radius: 10px;
 }
 
-/* Elightenment page hero image section */
+/* Enlightenment page hero image section */
 
 #hero-image-section-ep {
     height: 600px;
@@ -430,8 +428,9 @@ footer {
 #hero-quote-ep {
     position: absolute;
     width: 80%;
+    max-width: 300px;
     bottom: 20px;
-    left: 15px;
+    right: 20px;
     color: white;
     background-color: var(--DROPDOWN-MENU);
     padding: 20px;
@@ -442,7 +441,11 @@ footer {
     font-size: 1.3rem; 
 }
 
-/* Elightenment page description section */
+/* Enlightenment page description section */
+
+.reduce-title {
+    font-size: 1.6rem;
+}
 
 .ep-image-border {
     width: 70vw;
@@ -465,6 +468,7 @@ footer {
     color: white;
     border-radius: 10px;
     padding: 20px;
+    font-size: 1.6rem;
 }
 
 .practice-examples {
@@ -473,6 +477,7 @@ footer {
 
 .practice-examples p {
     margin-bottom: 10px;
+    font-size: 1.4rem;
 }
 
 .practice-examples li {
@@ -481,21 +486,21 @@ footer {
 }
 
 .practice-examples a {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     color: var(--DARK-SKY);
     text-decoration: none;
 }
 
 .example-heading {
     color: var(--MAIN-TEXT);
-    font-size: 1.2rem;
+    font-size: 1.4rem;
 }
 
 /* Techniques intro section */
 
 .meditate-sit-image-border {
-    width: 30vw;
-    height:30vw;
+    width: 70vw;
+    height:70vw;
     border-radius: 50%;
     background-color: var(--SKY);
     padding: 5px;
@@ -516,6 +521,7 @@ footer {
 
 #self-enquiry-list p {
     color: white;
+    font-size: 1.6rem;
 }
 
 #self-enquiry-list ul {
@@ -528,16 +534,18 @@ footer {
 #self-enquiry-list span {
     color: white;
     margin-right: 5px;
+    font-size: 1.5rem;
 }
 
 #self-enquiry-list li {
     list-style-type: none;
     margin-bottom: 10px;
+    font-size: 1.3rem;
 }
 
 .waves-image-border {
-    width: 50vw;
-    height: 50vw;
+    width: 70vw;
+    height: 70vw;
     padding: 5px;
     background-color: var(--SKY);
     border-radius: 10px;
@@ -701,7 +709,7 @@ footer {
 
     #menu {
         font-size: 2.5rem;
-        
+        top: 100px;
     }
 
     /* Description section home page */
@@ -761,6 +769,31 @@ footer {
         border-radius: 15px;
     }
 
+    /* Subscribe section */
+
+    .modal-inner {
+        width: 400px;
+    }
+
+    .close-btn {
+        font-size: 3rem;
+    }
+
+    .input-text {
+        padding: 20px 10px 20px 10px;
+        margin: 10px 0 20px 0;
+        font-size: 2rem;
+    }
+
+    .label-text {
+        font-size: 2.5rem;
+    }
+
+    .submit-btn {
+        font-size: 2.5rem;
+        padding: 15px 20px 15px 20px;
+    }
+
     /* Contact us section */
 
     #contact-us i {
@@ -778,5 +811,39 @@ footer {
     .googlemap-border {
         width: 400px;
         height: 400px;
+    }
+
+    /* Elightenment page hero image section */
+
+    #hero-quote-ep h3 {
+        font-size: 1.6rem;
+    }
+
+    /* Gererating peace section */
+
+    .practice-heading {
+        font-size: 2rem;
+    }
+
+    .example-heading {
+        font-size: 1.8rem;
+    }
+
+    .practice-examples a {
+        font-size: 1.8rem;
+    }
+
+    /* Generating self knowledge section */
+
+    #self-enquiry-list p {
+        font-size: 2rem;
+    }
+
+    #self-enquiry-list li {
+        font-size: 1.6rem;
+    }
+
+    #self-enquiry-list span {
+        font-size: 1.8rem;
     }
 }
