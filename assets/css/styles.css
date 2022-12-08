@@ -50,7 +50,7 @@ header a {
 }
 
 #logo h1 {
-    font-size: 25px;
+    font-size: 1.5rem;
 }
 
 #logo:hover {
@@ -60,7 +60,7 @@ header a {
 /* Nav menu and links */
 
 .menu-btn {
-    font-size: 30px;
+    font-size: 2rem;
     color: white;
     display: block;
     line-height: 75px;
@@ -103,7 +103,7 @@ header a {
 #menu a {
     text-decoration: none;
     color: white;
-    font-size: 20px;
+    font-size: 1.2rem;
 }
 
 #menu a:hover, .active {
@@ -118,22 +118,22 @@ section {
     margin: 0;
 }
 
-/* Welcome image section home page*/
+/* hero image section home page*/
 
-#welcome-image-section-hp {
+#hero-image-section-hp {
     height: 600px;
     width: 100%;
     overflow: hidden;
     position: relative;
 }
 
-#welcome-image-hp {
+#hero-image-hp {
     height: 600px;
     width: 100%;
     background: url(../images/sky-meditation-home-page.webp) no-repeat center center;
 }
 
-#welcome-quote-hp {
+#hero-quote-hp {
     position: absolute;
     width: 80%;
     bottom: 30px;
@@ -144,8 +144,8 @@ section {
     border-radius: 10px;
 }
 
-#welcome-quote-hp h3 {
-    font-size: 30px; 
+#hero-quote-hp h3 {
+    font-size: 2rem; 
 }
 
 
@@ -162,11 +162,13 @@ section {
     background-color: var(--MAIN-TEXT);
     text-align: center;
     padding: 30px;
+    font-size: 2rem;
 }
 
 .text {
     color: var(--MAIN-TEXT);
     padding: 20px 0;
+    font-size: 1.1rem;
 }
 
 .btn {
@@ -277,7 +279,7 @@ footer {
 }
 
 .social-media-links i {
-    font-size: 35px;
+    font-size: 2.1rem;
     color: white;
     margin: 0 5px 0 5px;
 }
@@ -394,22 +396,22 @@ footer {
     border-radius: 10px;
 }
 
-/* Elightenment page welcome image section */
+/* Elightenment page hero image section */
 
-#welcome-image-section-ep {
+#hero-image-section-ep {
     height: 600px;
     width: 100%;
     overflow: hidden;
     position: relative;
 }
 
-#welcome-image-ep {
+#hero-image-ep {
     height: 600px;
     width: 100%;
     background: url(../images/enlightenment-under-a-tree-page-2.jpg) no-repeat center center;
 }
 
-#welcome-quote-ep {
+#hero-quote-ep {
     position: absolute;
     width: 80%;
     bottom: 20px;
@@ -420,8 +422,24 @@ footer {
     border-radius: 10px;
 }
 
-#welcome-quote-ep h3 {
+#hero-quote-ep h3 {
     font-size: 1.3rem; 
+}
+
+/* Elightenment page description section */
+
+.ep-image-border {
+    width: 70vw;
+    height: 70vw;
+    background-color: var(--SKY);
+    border-radius: 50%;
+    padding: 5px;
+    margin: -5px auto 20px auto;
+}
+
+.ep-image-border img {
+    height: 100%;
+    border-radius: 50%;
 }
 
 /* Generating peace section */
@@ -447,9 +465,14 @@ footer {
 }
 
 .practice-examples a {
-    font-size: 20px;
+    font-size: 1.2rem;
     color: var(--DARK-SKY);
     text-decoration: none;
+}
+
+.example-heading {
+    color: var(--MAIN-TEXT);
+    font-size: 1.2rem;
 }
 
 /* Generating self knowledge section */
