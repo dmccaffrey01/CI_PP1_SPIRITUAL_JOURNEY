@@ -876,6 +876,19 @@ footer {
     }
 }
 
+@media screen and (min-width: 1100px) {
+    /* Hero image section home page */
+
+    #hero-image-section-hp {
+        height: 900px;
+    }
+
+    #hero-image-hp {
+        background: url(../images/sky-meditation-home-page-2.jpg) no-repeat center center;
+        height: 900px;
+    }
+}
+
 @media screen and (min-width: 1280px) {
     /* Header */
     
@@ -899,17 +912,6 @@ footer {
     #menu {
         font-size: 4rem;
         top: 125px;
-    }
-
-    /* Hero image section home page */
-
-    #hero-image-section-hp {
-        height: 900px;
-    }
-
-    #hero-image-hp {
-        background: url(../images/sky-meditation-home-page-2.jpg) no-repeat;
-        height: 900px;
     }
 
     /* Description section home page */
@@ -1084,6 +1086,12 @@ footer {
 }
 
 @media screen and (min-width: 1400px) {
+    /* Home page hero image sectin */
+
+    #hero-image-hp {
+        background: url(../images/sky-meditation-home-page-3.jpg) no-repeat center center;
+    }
+    
     /* Enligthenment page hero image section */
 
     #hero-image-section-ep {
