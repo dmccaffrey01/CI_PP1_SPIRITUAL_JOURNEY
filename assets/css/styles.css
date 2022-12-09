@@ -402,6 +402,7 @@ footer {
     border-radius: 10px;
     margin: 20px auto 20px auto;
     padding: 2px;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
 }
 
 .googlemap-border iframe {
@@ -454,6 +455,7 @@ footer {
     border-radius: 50%;
     padding: 5px;
     margin: -5px auto 20px auto;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
 }
 
 .ep-image-border img {
@@ -469,6 +471,7 @@ footer {
     border-radius: 10px;
     padding: 20px;
     font-size: 1.6rem;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
 }
 
 .practice-examples {
@@ -505,6 +508,7 @@ footer {
     background-color: var(--SKY);
     padding: 3px;
     margin: 0 auto 0 auto;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
 }
 
 .meditate-sit-image-border img {
@@ -548,7 +552,7 @@ footer {
 .waves-image-border {
     width: 70vw;
     height: 70vw;
-    
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
     background-color: var(--SKY);
     border-radius: 10px;
     margin: 0 auto;
@@ -576,6 +580,7 @@ footer {
     border-radius: 10px;
     text-align: center;
     margin: 0 auto;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
 }
 
 .display-card img {
@@ -618,6 +623,7 @@ footer {
     width: 70vw;
     border-radius: 10px;
     margin: 0 auto 20px auto;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
 }
 
 /* Maps of enlightenment section */
@@ -636,6 +642,7 @@ footer {
     border-radius: 50%;
     padding: 3px;
     margin: 0 5px 0 5px;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
 }
 
 .map-border img {
@@ -674,6 +681,7 @@ footer {
     padding: 3px;
     background-color: var(--SKY);
     margin-left: 5px;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
 }
 
 .profile-pic {
@@ -1072,5 +1080,18 @@ footer {
     .profile-pic-border {
         width: 200px;
         height: 200px;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    /* Enligthenment page hero image section */
+
+    #hero-image-section-ep {
+        height: 900px;
+    }
+
+    #hero-image-ep {
+        height: 900px;
+        background: url(../images/enlightenment-under-a-tree-page-3.jpg) no-repeat center center;
     }
 }
