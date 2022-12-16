@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Qwigley&family=Source+Sans+Pro&display=swap');
 
 :root {
-    --SKY: #8edff1;
+    --SKY: #35bddb;
     --SKY-1: #CAEBF2;
     --DARK-SKY: #22b9db;
     --CARBON: #A9A9A9;
+    --QUOTE: #707070;
     --NEUTRAL: #EFEFEF;
     --MAIN-TEXT: rgba(70, 67, 67, 1);
     --DROPDOWN-MENU: rgba(70, 67, 67, 0.7);
@@ -186,7 +187,7 @@ section {
 /* Benefits section home page */
 
 .quote {
-    background-color: var(--CARBON);
+    background-color: var(--QUOTE);
     color: var(--NEUTRAL);
     padding: 20px;
     font-size: 1.5rem;
