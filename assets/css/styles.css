@@ -275,10 +275,15 @@ section {
     padding: 10px;
     border-radius: 10px;
     width: 100px;
-    color: var(--NEUTRAL);
     cursor: pointer;
     margin: 0 10px 0 10px;
     font-size: 1.2rem;
+    text-align: center;
+}
+
+.btn-choice a {
+    color: white;
+    text-decoration: none;
 }
 
 /* Footer */
