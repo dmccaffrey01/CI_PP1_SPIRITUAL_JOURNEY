@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Qwigley&family=Source+Sans+Pro&display=swap');
 
 :root {
-    --SKY: #05aed4;
+    --SKY: #177fa8;
+    --SKY-2: #06a1c4;
     --SKY-1: #CAEBF2;
     --DARK-SKY: #22b9db;
     --CARBON: #A9A9A9;
