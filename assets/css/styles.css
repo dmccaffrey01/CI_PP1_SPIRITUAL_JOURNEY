@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Qwigley&family=Source+Sans+Pro&display=swap');
 
 :root {
-    --SKY: #CAEBF2;
+    --SKY: #8edff1;
+    --SKY-1: #CAEBF2;
     --DARK-SKY: #22b9db;
     --CARBON: #A9A9A9;
     --NEUTRAL: #EFEFEF;
@@ -411,57 +412,7 @@ footer {
     border-radius: 10px;
 }
 
-/* Enlightenment page hero image section */
 
-#hero-image-section-ep {
-    height: 600px;
-    width: 100%;
-    overflow: hidden;
-    position: relative;
-}
-
-#hero-image-ep {
-    height: 600px;
-    width: 100%;
-    background: url(../images/enlightenment-under-a-tree-page-2.jpg) no-repeat center center;
-}
-
-#hero-quote-ep {
-    position: absolute;
-    width: 80%;
-    max-width: 300px;
-    bottom: 20px;
-    right: 20px;
-    color: white;
-    background-color: var(--DROPDOWN-MENU);
-    padding: 20px;
-    border-radius: 10px;
-}
-
-#hero-quote-ep h3 {
-    font-size: 1.3rem; 
-}
-
-/* Enlightenment page description section */
-
-.reduce-title {
-    font-size: 1.6rem;
-}
-
-.ep-image-border {
-    width: 70vw;
-    height: 70vw;
-    background-color: var(--SKY);
-    border-radius: 50%;
-    padding: 5px;
-    margin: -5px auto 20px auto;
-    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
-}
-
-.ep-image-border img {
-    height: 100%;
-    border-radius: 50%;
-}
 
 /* Generating peace section */
 
@@ -501,7 +452,7 @@ footer {
 
 /* Techniques intro section */
 
-.meditate-sit-image-border {
+.techniques-image-border {
     width: 70vw;
     height:70vw;
     border-radius: 50%;
@@ -511,7 +462,7 @@ footer {
     box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
 }
 
-.meditate-sit-image-border img {
+.techniques-image-border img {
     height: 100%;
     border-radius: 50%;
 }
@@ -987,34 +938,9 @@ footer {
         font-size: 1.6rem;
     }
 
-    /* Enlightenment page description section */
-
-    .desc-container {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 900px;
-        margin: 0 auto;
-    }
-
-    .desc-text {
-        width: 58%;
-        margin: 40px 0 40px 0;
-    }
-
-    .desc-image {
-        width: 30vw;
-        height: 30vw;
-        margin: 0 5px 0 5px;
-    }
-
-    .flip {
-        flex-direction: row-reverse;
-    }
-
     /* Techniques intro sectin */
 
-    .meditate-sit-image-border {
+    .techniques-image-border {
         width: 600px;
         height: 600px;
     }
@@ -1090,16 +1016,5 @@ footer {
 
     #hero-image-hp {
         background: url(../images/sky-meditation-home-page-3.jpg) no-repeat center center;
-    }
-    
-    /* Enligthenment page hero image section */
-
-    #hero-image-section-ep {
-        height: 900px;
-    }
-
-    #hero-image-ep {
-        height: 900px;
-        background: url(../images/enlightenment-under-a-tree-page-3.jpg) no-repeat center center;
     }
 }
