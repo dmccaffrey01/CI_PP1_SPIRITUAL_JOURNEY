@@ -238,6 +238,23 @@
                     <input type="text" name="name" id="name" class="input-text">
                     <label for="email" class="label-text">Email</label>
                     <input type="text" name="email" id="email" class="input-text">
+                    <select name="age" id="age" class="age-select" required>
+                        <option value="" disabled selected hidden>Choose your age</option>
+                        <option value="0-12">0-12</option>
+                        <option value="12-16">12-16</option>
+                        <option value="17-25">17-25</option>
+                        <option value="25-35">25-35</option>
+                        <option value="35+">35+</option>
+                    </select>
+                    <label for="gender" class="label-text">Gender</label>
+                    <div class="radio-container">
+                        <input type="radio" id="male" name="gender" value="male" class="radio-btn">
+                        <label for="male" class="radio-text">Male</label>
+                    </div>
+                    <div class="radio-container">
+                        <input type="radio" id="female" name="gender" value="female" class="radio-btn">
+                        <label for="female" class="radio-text">Female</label>
+                    </div>
                     <input type="button" class="submit-btn" value="Submit">
                 </form>
             </div>

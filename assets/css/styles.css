@@ -374,6 +374,47 @@ footer {
     font-size: 1.8rem;
 }
 
+.age-select {
+    border-radius: 20px;
+    border: 3px solid white;
+    background-color: rgba(70, 67, 67, 0.8);
+    width: 100%;
+    color: white;
+    padding: 10px 5px 10px 5px;
+    font-size: 1.2rem;
+    margin: 5px 0 20px 0;
+}
+
+.age-select:focus {
+    outline: none;
+    border: 3px solid var(--SKY);
+}
+
+.radio-container {
+    border-radius: 20px;
+    border: 3px solid white;
+    background-color: rgba(70, 67, 67, 0.8);
+    width: 50%;
+    color: white;
+    padding: 10px 5px 10px 5px;
+    margin: 5px 0 5px 0;
+    cursor: pointer;
+}
+
+.radio-text {
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.radio-btn {
+    margin: 0 5px 0 10px;
+    height: 15px;
+    width: 15px;
+    vertical-align: center;
+    cursor: pointer;
+    accent-color: var(--SKY);
+}
+
 .submit-btn {
     background-color: var(--SKY);
     font-size: 1.8rem;
@@ -381,6 +422,7 @@ footer {
     border-radius: 20px;
     color: var(--MAIN-TEXT);
     cursor: pointer;
+    margin-top: 20px;
 }
 
 .subscribe-modal:target {
