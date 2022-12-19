@@ -1,9 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Qwigley&family=Source+Sans+Pro&display=swap');
 
 :root {
-    --SKY: #177fa8;
-    --SKY-2: #06a1c4;
-    --SKY-1: #CAEBF2;
+    --SKY: #659DBD;
+    --SKY-3: #177fa8;
     --DARK-SKY: #22b9db;
     --CARBON: #A9A9A9;
     --QUOTE: #707070;
@@ -430,7 +429,7 @@ footer {
 /* Generating peace section */
 
 .practice-heading {
-    background-color: var(--CARBON);
+    background-color: var(--QUOTE);
     color: white;
     border-radius: 10px;
     padding: 20px;
@@ -483,7 +482,7 @@ footer {
 /* Generating self knowledge section */
 
 #self-enquiry-list {
-    background-color: var(--CARBON);
+    background-color: var(--SKY);
     border-radius: 10px;
     border: 2px solid white;
     box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
@@ -499,6 +498,7 @@ footer {
     margin: 0 auto;
     text-align: left;
     padding-bottom: 10px;
+    color: var(--MAIN-TEXT);
 }
 
 #self-enquiry-list span {
@@ -539,7 +539,7 @@ footer {
 }
 
 .display-card {
-    background-color: var(--CARBON);
+    background-color: var(--QUOTE);
     width: 80%;
     border-radius: 10px;
     text-align: center;
@@ -554,7 +554,7 @@ footer {
 }
 
 .display-info {
-    background-color: var(--CARBON);
+    background-color: var(--QUOTE);
     color: white;
     padding: 10px;
     border-radius: 0px 0px 10px 10px;
@@ -573,7 +573,7 @@ footer {
 /* Meditation apps section */
 
 .display-info-app {
-    background-color: var(--CARBON);
+    background-color: var(--QUOTE);
     color: white;
     padding: 10px;
     border-radius: 0px 0px 10px 10px;
