@@ -1043,9 +1043,23 @@ footer {
 
     /* Techniques intro sectin */
 
+    .intro-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .intro-col {
+        width: 400px;
+        height: 400px;
+        margin: 0 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
     .techniques-image-border {
-        width: 500px;
-        height: 500px;
+        width: 300px;
+        height: 300px;
     }
 
     /* Gererating peace section */
@@ -1078,6 +1092,23 @@ footer {
 
     /* Generating self knowledge section */
 
+    .self-enquiry-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 20px 0 0 0;
+    }
+
+    .self-enquiry-col-1 {
+        width: 33%;
+        margin-right: 5%;
+    }
+
+    .self-enquiry-col-2 {
+        width: 57%;
+        margin-left: 5%;
+    }
+
     #self-enquiry-list p {
         font-size: 2.2rem;
     }
@@ -1090,9 +1121,48 @@ footer {
         font-size: 2rem;
     }
 
+    .description-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+    }
+
+    .description-col-1 {
+        width: 33%;
+        margin-right: 5%;
+    }
+
+    .description-col-2 {
+        width: 57%;
+        margin-left: 5%;
+    }
+
     .waves-image-border {
-        width: 500px;
-        height: 500px;
+        width: 275px;
+        height: 275px;
+    }
+
+    .guide-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .guide-col-2 {
+        width: 40%;
+    }
+
+    .guide-col-1 {
+        width: 50%;
+    }
+
+    .mr5 {
+        margin-right: 5%;
+    }
+
+    .ml5 {
+        margin-left: 5%;
     }
 
     /* Book recommendations section */
