@@ -813,6 +813,10 @@ footer {
         border-radius: 15px;
     }
 
+    #continue-further-button-choice {
+        width: 450px;
+    }
+
     /* Subscribe section */
 
     .modal-inner {
@@ -1021,6 +1025,19 @@ footer {
         margin: 0 auto;
     }
 
+    /* Outro section */
+
+    .outro-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .outro-col {
+        width: 45%;
+        margin: 0 2.5%;
+    }
+
     /* Continue further section */
 
     .btn-choice {
@@ -1028,6 +1045,17 @@ footer {
     }
 
     /* Contact us section */
+
+    .contact-us-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .contact-us-col {
+        width: 45%;
+    }
 
     #contact-us i {
         font-size: 4rem;
