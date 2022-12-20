@@ -540,7 +540,7 @@ footer {
     margin: 0 auto;
     text-align: left;
     padding-bottom: 10px;
-    color: var(--MAIN-TEXT);
+    color: var(--CARBON);
 }
 
 #self-enquiry-list span {
@@ -863,6 +863,13 @@ footer {
         font-size: 1.6rem;
     }
 
+    /* Techniques intro sectin */
+
+    .techniques-image-border {
+        width: 400px;
+        height: 400px;
+    }
+
     /* Gererating peace section */
 
     .practice-heading {
@@ -889,6 +896,11 @@ footer {
 
     #self-enquiry-list span {
         font-size: 1.8rem;
+    }
+
+    .waves-image-border {
+        width: 400px;
+        height: 400px;
     }
 
     /* Book recommendations section */
@@ -1032,14 +1044,28 @@ footer {
     /* Techniques intro sectin */
 
     .techniques-image-border {
-        width: 600px;
-        height: 600px;
+        width: 500px;
+        height: 500px;
     }
 
     /* Gererating peace section */
 
+    .practices-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .practice-col {
+        width: 30%;
+        margin: 0 1.5%;
+    }
+
     .practice-heading {
-        font-size: 2.2rem;
+        font-size: 2rem;
+        height: 75px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     .example-heading {
@@ -1047,7 +1073,7 @@ footer {
     }
 
     .practice-examples a {
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
 
     /* Generating self knowledge section */
@@ -1065,8 +1091,8 @@ footer {
     }
 
     .waves-image-border {
-        width: 600px;
-        height: 600px;
+        width: 500px;
+        height: 500px;
     }
 
     /* Book recommendations section */
