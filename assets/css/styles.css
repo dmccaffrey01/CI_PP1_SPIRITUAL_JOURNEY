@@ -167,17 +167,43 @@ section {
 
 .expand-container {
     text-align: center;
+    display: flex;
+    flex-flow: column;
 }
+
+.order:nth-child(1) { order: 2 }
+
+.order:nth-child(2) { order: 3 }
+
+.order:nth-child(3) { order: 4 }
+
+.order:nth-child(4) { order: 5 }
+
+.order:nth-child(5) { order: 1 }
+
+.order:nth-child(6) { order: 6 }
 
 #collapse-text-1, #collapse-arrow-1 {
     display: none;
 }
 
 #expand-check-1:checked + label span, #expand-check-1:checked + label i {
-    display: inline
+    display: inline;
 }
 
-#expand-check-1:checked + label span:nth-child(1), #expand-check-1:checked + label i:nth-child(2), #expand-check-4:checked + label i:nth-child(2), #expand-check-1:checked ~ #expand-sample-text-1 {
+#expand-check-1:checked ~ #expand-label-1 {
+    order: 6
+}
+
+#expand-check-1:checked ~ #section-expand-1 {
+    order: 5
+}
+
+#expand-check-1:checked + label span:nth-child(1), #expand-check-1:checked + label i:nth-child(2), #expand-check-4:checked + label i:nth-child(2) {
+    display: none;
+}
+
+#expand-check-1:checked ~ #expand-sample-text-1 {
     display: none;
 }
 
@@ -207,7 +233,19 @@ section {
     display: inline
 }
 
+#expand-check-2:checked ~ #expand-label-2 {
+    order: 6
+}
+
+#expand-check-2:checked ~ #section-expand-2 {
+    order: 5
+}
+
 #expand-check-2:checked + label span:nth-child(1), #expand-check-2:checked + label i:nth-child(2) {
+    display: none;
+}
+
+#expand-check-2:checked ~ #expand-sample-text-2 {
     display: none;
 }
 
@@ -237,7 +275,19 @@ section {
     display: inline
 }
 
+#expand-check-3:checked ~ #expand-label-3 {
+    order: 6
+}
+
+#expand-check-3:checked ~ #section-expand-3 {
+    order: 5
+}
+
 #expand-check-3:checked + label span:nth-child(1), #expand-check-3:checked + label i:nth-child(2) {
+    display: none;
+}
+
+#expand-check-3:checked ~ #expand-sample-text-3 {
     display: none;
 }
 
@@ -267,7 +317,19 @@ section {
     display: inline
 }
 
+#expand-check-4:checked ~ #expand-label-4 {
+    order: 6
+}
+
+#expand-check-4:checked ~ #section-expand-4 {
+    order: 5
+}
+
 #expand-check-4:checked + label span:nth-child(1), #expand-check-4:checked + label i:nth-child(2), #expand-check-4:checked ~ #expand-sample-text-4 {
+    display: none;
+}
+
+#expand-check-4:checked ~ #expand-sample-text-4 {
     display: none;
 }
 
@@ -282,12 +344,12 @@ section {
 /* Expand button */
 
 .expand-btn-margin-top {
-    margin: 40px 0 0 0;
+    margin: 20px 0 0 0;
     width: 100%;
 }
 
 .expand-btn-margin-bottom {
-    margin: 0 0 40px 0;
+    margin: 0 0 20px 0;
     width: 100%;
 }
 
@@ -339,6 +401,10 @@ section {
 .btn a {
     color: white;
     text-decoration: none;
+}
+
+.mt-40 {
+    margin-top: -40px;
 }
 
 /* Benefits section home page */
