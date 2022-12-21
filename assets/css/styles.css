@@ -155,7 +155,7 @@ section {
     border-radius: 10px;
 }
 
-#hero-quote-hp h3 {
+#hero-quote-hp p {
     font-size: 2rem; 
 }
 
@@ -442,7 +442,7 @@ footer {
 /* Contact us section */
 
 .link {
-    color: var(--DARK-SKY)
+    color: var(--SKY)
 }
 
 #contact-us i {
@@ -868,12 +868,6 @@ footer {
     .googlemap-border {
         width: 400px;
         height: 400px;
-    }
-
-    /* Elightenment page hero image section */
-
-    #hero-quote-ep h3 {
-        font-size: 1.6rem;
     }
 
     /* Techniques intro sectin */
