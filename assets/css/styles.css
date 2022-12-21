@@ -2,11 +2,10 @@
 
 :root {
     --SKY: #345C79;
-    --CARBON: #A9A9A9;
     --QUOTE: #707070;
     --NEUTRAL: #EFEFEF;
-    --MAIN-TEXT: rgba(70, 67, 67, 1);
-    --DROPDOWN-MENU: rgba(70, 67, 67, 0.7);
+    --MAIN-TEXT: #464343;
+    --DROPDOWN-MENU: #464343b3;
 }
 
 * {
@@ -502,7 +501,7 @@ footer {
 
 .practice-examples a {
     font-size: 1.4rem;
-    color: var(--DARK-SKY);
+    color: var(--SKY);
     text-decoration: none;
 }
 
@@ -677,10 +676,11 @@ footer {
     margin: 0px 0px 10px 0px;
 }
 
-.yt-link-text {
+.yt-link-text  p {
     font-size: 1.5rem;
     width: 175px;
     margin-right: 5px;
+    color: var(--SKY);
 }
 
 .yt-link-text a {
@@ -924,9 +924,10 @@ footer {
 
     /* Youtube links section */
 
-    .yt-link-text {
+    .yt-link-text p {
         font-size: 2rem;
         width: 200px;
+        margin-right: 30px;
     }
 
     .profile-pic-border {
@@ -1216,7 +1217,7 @@ footer {
 
     /* Youtube links section */
 
-    .yt-link-text {
+    .yt-link-text p {
         font-size: 2rem;
         width: 200px;
     }
