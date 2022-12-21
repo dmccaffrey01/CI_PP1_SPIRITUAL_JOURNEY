@@ -2,8 +2,6 @@
 
 :root {
     --SKY: #345C79;
-    --SKY-3: #177fa8;
-    --DARK-SKY: #22b9db;
     --CARBON: #A9A9A9;
     --QUOTE: #707070;
     --NEUTRAL: #EFEFEF;
@@ -252,7 +250,7 @@ section {
 #continue-further-image-border {
     width: 275px;
     height: 275px;
-    background-color: var(--CARBON);
+    background-color: var(--SKY);
     border-radius: 50%;
     padding: 5px;
     margin: 10px auto 20px auto;
@@ -549,7 +547,7 @@ footer {
     margin: 0 auto;
     text-align: left;
     padding-bottom: 10px;
-    color: var(--CARBON);
+    color: var(--NEUTRAL);
 }
 
 #self-enquiry-list span {
