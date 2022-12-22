@@ -377,7 +377,28 @@ To validate the HTML of the website, W3C Markup Validation service was used
 | Warning | `<section id="hero-image-section-hp">` | Section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections, or else use a div element instead for any cases where no heading is needed. | Section appropriately only includes hero image and quote |
 | Warning | `<section id="continue-further-section">` | Section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections, or else use a div element instead for any cases where no heading is needed. | Section appropriately only includes image and choice of buttons |
 
-- about-us.html: [Results]()
+- about-us.html: [Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdmccaffrey01.github.io%2FCI_PP1_SPIRITUAL_JOURNEY%2Fabout-us.html)
+
+2 Warnings displayed
+| **Level** | **Feature** | **Issue Description** | **Comment** |
+|-------------|-------------|----------------------|-------------|
+| Warning | `<section id="modal-1">` | Section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections, or else use a div element instead for any cases where no heading is needed. | Section appropriately only includes modal |
+| Error | `<label for="gender" class="label-text">` | he value of the for attribute of the label element must be the ID of a non-hidden form control. | I included a div in the form to help styling |
+
+- techniques.html: [Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdmccaffrey01.github.io%2FCI_PP1_SPIRITUAL_JOURNEY%2Ftechniques.html)
+
+3 Warnings displayed
+| **Level** | **Feature** | **Issue Description** | **Comment** |
+|-------------|-------------|----------------------|-------------|
+| Warning | `<section id="techniques-intro">` | Section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections, or else use a div element instead for any cases where no heading is needed. | Section appropriately only includes introduction |
+| Warning | `<section id="modal-2">` | Section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections, or else use a div element instead for any cases where no heading is needed. | Section appropriately only includes modal |
+| Error | `<label for="gender" class="label-text">` | he value of the for attribute of the label element must be the ID of a non-hidden form control. | I included a div in the form to help styling |
+
+- resources.html: [Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdmccaffrey01.github.io%2FCI_PP1_SPIRITUAL_JOURNEY%2Fresources.html)
+
+2 Warnings displayed
+| Warning | `<section id="modal-2">` | Section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections, or else use a div element instead for any cases where no heading is needed. | Section appropriately only includes modal |
+| Error | `<label for="gender" class="label-text">` | he value of the for attribute of the label element must be the ID of a non-hidden form control. | I included a div in the form to help styling |
 
 ### CSS Validation
 
@@ -415,6 +436,51 @@ The alerts are high on all pages but most of them are to do with links which I h
 ### Performance
 
 Performance testing was performed on lighthouse in Google Chrome's DevTools
+
+#### index.html
+
+![Lighthouse summary image for index page](docs/index-lighthouse-performance.jpg)
+
+Issues:
+No issues
+
+#### about-us.html
+
+![Lighthouse summary image for about us page](docs/about-us-lighthouse-performance.jpg)
+
+Issues:
+No issues
+
+#### techniques.html
+
+![Lighthouse summary image for techniques page](docs/techniques-lighthouse-performance.jpg)
+
+Issues:
+No issues
+
+#### resources.html
+
+![Lighthouse summary image for resources page](docs/resources-lighthouse-performance.jpg)
+
+Issues:
+No issues
+
+### Device testing
+
+The website was tested on the following devices:
+
+1. Iphone 11
+2. Desktop
+3. Google Chrome Developer Tools for responsive sizes
+
+### Browser Compatibility
+
+The website was tested on the following browsers:
+1. Google Chrome
+2. Mozilla Firefox
+
+
+
 
 
 
