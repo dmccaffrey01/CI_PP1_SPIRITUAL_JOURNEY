@@ -363,6 +363,15 @@ The website consists of five pages, four are accessible through the navigation m
 
 ![404 Error](docs/error-404-page-feature.jpg)
 
+## Testing
+ 
+### HTML Validation
+
+To validate the HTML of the website, W3C Markup Validation service was used
+
+index.html [results]()
+ 
+
 
 
 
