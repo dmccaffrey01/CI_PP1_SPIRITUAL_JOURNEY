@@ -680,7 +680,7 @@ footer {
     font-size: 1.8rem;
     padding: 10px 15px 10px 15px;
     border-radius: 20px;
-    color: var(--MAIN-TEXT);
+    color: white;
     cursor: pointer;
     margin-top: 20px;
 }

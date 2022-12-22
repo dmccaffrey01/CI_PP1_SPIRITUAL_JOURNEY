@@ -190,6 +190,7 @@ The website consists of five pages, four are accessible through the navigation m
 - The navbar is uses a hamburger menu that when clicked opens a transparent dropdown menu with links to the home, about us, techniques and resources pages
 - It is easy for the user to navigate through the website
 - The page the user is currently on gets underlined
+- User stories covered: 13
 
 ![Logo and navbar](docs/logo-and-navbar-feature.jpg)
 
@@ -247,6 +248,115 @@ The website consists of five pages, four are accessible through the navigation m
 - User stories covered: 3
 
 ![Footer](docs/footer-feature.jpg)
+
+### Our Mission
+- Gives the user information on what the company and website is about and what they do
+- Lays out the goals and objectives of the company
+- It is collapsed to begin with just some sample text but can be expanded by clicking the read button
+- When expanded the user finds more information, 2 buttons, one to visit the resources page and another to the techniques page
+- The section can be collapsed again with the close button
+- User stories covered: 2, 15
+
+![Our Mission Collapsed](docs/our-mission-collapsed-feature.jpg)
+
+![Our Mission Expanded](docs/our-mission-expanded-feature.jpg)
+
+### Subscribe
+- This section gives the user a call to action to press a button to subscribe to the newsletter
+- Once the button is clicked, a pop up modal appears, where the user can fill out the form and click submit
+- There is three of these subscribe buttons and modals across all pages
+- User stories covered: 10
+
+![Subscirbe](docs/subscribe-feature.jpg)
+
+![Subscribe Modal](docs/subscribe-modal-feature.jpg)
+
+### Contact Us
+- This section gives the user the ability to contact the company
+- The company's email, social links and location is provided
+- A google maps location of the company is also provided
+- User stories covered: 3, 4, 14
+
+![Contact Us](docs/contact-us-feature.jpg)
+
+### Techniques Intro
+- The user is given information on meditation techniques
+- User stories covered: 6
+
+![Techniques Intro](docs/techniques-intro-feature.jpg)
+
+### Generating Peace Practices
+- The user is given information on meditation techniques
+- Links to videos are provided
+- Button to link to beginners guide is also provided
+- Section is collapsed to begin with and when the open button is clicked, a modal is open displaying the information
+- Section can be collapsed again with the close button
+- User stories covered: 6
+
+![Generating Peace Collapsed](docs/generating-peace-feature.jpg)
+
+![Generating Peace Expanded part 1](docs/generating-peace-expanded-p1-feature.jpg)
+
+![Generating Peace Expanded part 2](docs/generating-peace-expanded-p2-feature.jpg)
+
+### Generating Self Knowledge Practices
+- The user is given information on meditation techniques
+- Section is collapsed to begin with and when the open button is clicked, a modal is open displaying the information
+- Section can be collapsed again with the close button
+- User stories covered: 6
+
+![Generating Knowledge Collapsed](docs/generating-knowledge-feature.jpg)
+
+![Generating Knowledge Expanded](docs/generating-knowledge-expanded-feature.jpg)
+
+### Beginners Guide
+- The user is given information on a beginners guide to meditation and spirituality
+- Section is collapsed to begin with and when the open button is clicked, a modal is open displaying the information
+- Buttons linking to app info, retreat info, maps info and resources info are also included
+- Section can be collapsed again with the close button
+- User stories covered: 11
+
+![Beginners Guide Collapsed](docs/beginners-guide-feature.jpg)
+
+![Beginners Guide Expanded](docs/beginners-guide-expanded-feature.jpg)
+
+### Book Recommendations
+- The user is displayed with book recommendations
+- The books are displayed in a card that animates when hovered
+- The user can click the card and be brought to amazon to buy
+- User stories covered: 7
+
+![Book Recommendations](docs/book-recommendations-feature.jpg)
+
+### App Recommendations
+- The user is displayed with app recommendations
+- The apps are displayed in a card that animates when hovered
+- The user can click the card and be brought to the website of the app
+- User stories covered: 8
+
+![App Recommendations](docs/app-recommendations-feature.jpg)
+
+### Retreats
+- Information on reatreats is displayed to the user
+- User stories covered: 9
+
+![Retreats](docs/retreats-feature.jpg)
+
+### Maps
+- Information on maps of enlightenment is displayed to the user
+- Links to view the maps are included
+- User stories covered: 12
+
+![Maps](docs/maps-feature.jpg)
+
+### Youtube Links
+- Links to useful teachers on youtube is displayed to the user
+- Button links to youtube playlist and subscribe to newsletter are provided
+- Links animate when hovered over
+
+![Youtube Links part 1](docs/youtube-links-p1-feature.jpg)
+
+![Youtube Links part 2](docs/youtube-links-p2-feature.jpg)
 
 
 
