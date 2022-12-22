@@ -112,13 +112,47 @@ The website has 4 seperate pages and 1 404 error page rerouting the user back to
 - Techniques & Guide page with useful practice information, subscription modal, and call to actions
 - Resources page with book and app recommendations, retreats info, maps info, and youtube links
 
-** Wireframes Section
+### Wireframes
+
+Wireframes were created mobile first and outline the initial design concept for the website
+<br>
+<details>
+<summary>Home Page Wireframe</summary>
+<br>
+<img src="docs/home-page-wireframe.jpg" alt="wireframe for home page">
+</details>
+<br>
+<details>
+<summary>About Us Page Wireframe</summary>
+<br>
+<img src="docs/about-us-page-wireframe.jpg" alt="wireframe for about us page">
+</details>
+<br>
+<details>
+<summary>Techniques Page Wireframe</summary>
+<br>
+<img src="docs/techniques-page-wireframe.jpg" alt="wireframe for techniques page">
+</details>
+<br>
+<details>
+<summary>Resources Page Wireframe</summary>
+<br>
+<img src="docs/resources-page-wireframe.jpg" alt="wireframe for resources page">
+</details>
+<br>
+<details>
+<summary>404 Error Page Wireframe</summary>
+<br>
+<img src="docs/error-404-page-wireframe.jpg" alt="wireframe for 404 error page">
+</details>
+<br>
+
 
 ## Technologies Used
 
 ### Languages
--HTML
--CSS
+- HTML
+- CSS
 
 ### Frameworks & Tools
 [Balsamiq](https://balsamiq.com/wireframes/) - Used to for wireframes.
@@ -147,7 +181,73 @@ The website has 4 seperate pages and 1 404 error page rerouting the user back to
 
 [Am I Responsive?](https://ui.dev/amiresponsive) - prototyping website image on a range of devices.
 
-##
+## Features
+The website consists of five pages, four are accessible through the navigation menu (index/home page, about-us page, techniques page, resouces page). The last page is a 404 error page which the user can click a button to return home.
+
+### Logo and Navigation Bar
+- Featured on all five pages
+- The Logo when clicked brings the user back to the home page
+- The navbar is uses a hamburger menu that when clicked opens a transparent dropdown menu with links to the home, about us, techniques and resources pages
+- It is easy for the user to navigate through the website
+- The page the user is currently on gets underlined
+
+![Logo and navbar](docs/logo-and-navbar-feature.jpg)
+
+![Menu dropdown](docs/menu-dropdown-feature.jpg)
+
+### Hero Image
+- Introduces the user to the website
+- Includes quote to make user feel welcome
+
+![Hero image](docs/hero-image-feature.jpg)
+
+### Intro and Descriptions
+- Gives the user brief information on meditation and minfulness
+- There is a three read buttons on each heading that when clicked expands the information so the user can read more
+- There is a button when the text expands to close the information
+- There is also a button under the intro information that when clicked links the user to the about us page
+- A quote from Alan Watts is at the end of the section
+- User stories covered: 1
+
+![Intro Collapsed](docs/intro-collapsed-hp-feature.jpg)
+
+![Intro Expanded](docs/intro-expanded-hp-feature.jpg)
+
+![Meditation Collapsed](docs/meditate-desc-collapsed-feature.jpg)
+
+![Meditation Expanded](docs/meditate-desc-expanded-feature.jpg)
+
+![Mindfulness Collapsed](docs/mindfulness-desc-collapsed-feature.jpg)
+
+![Mindfulness Expanded](docs/mindfulness-desc-expanded-feature.jpg)
+
+![Quote](docs/quote-home-page-feature.jpg)
+
+### Benefits 
+- Gives the user information on benefits of mediation
+- It is collapsed to begin with just some sampled text and button but the user can click the read button to expand the section
+- In the expanded section there is four cards with information on the benefits with a central image
+- The expanded section can be closed with a button
+- User stories covered: 5
+
+![Benefits Collapsed](docs/benefits-section-collapsed-feature.jpg)
+
+![Benefits Expanded](docs/benefits-section-expanded-feature.jpg)
+
+### Continue Further
+- The user is offered with a choice, to continue learning about spirituality and explore more of the website or return back to watching cat videos on youtube
+- An image of Morphius from The Matrix offering two pills, the red pill or button links the user to the techniques page, the blue pill or button links the user to cat videos on youtube
+
+![Continue Further](docs/continue-further-feature.jpg)
+
+### Footer
+- The footer allows the user to go to the company's social media
+- There is four links to facebook, twitter, instagram and youtube
+- Copyright is also included
+- User stories covered: 3
+
+![Footer](docs/footer-feature.jpg)
+
 
 
 
