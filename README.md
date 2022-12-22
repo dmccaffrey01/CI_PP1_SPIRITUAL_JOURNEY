@@ -24,7 +24,7 @@
     1. [Languages](#languages)
     2. [Frameworks & Tools](#frameworks-&-tools)
 5. [Features](#features)
-6. [Testing](#validation)
+6. [Testing](#testing)
     1. [HTML Validation](#HTML-validation)
     2. [CSS Validation](#CSS-validation)
     3. [Accessibility](#accessibility)
@@ -358,6 +358,10 @@ The website consists of five pages, four are accessible through the navigation m
 
 ![Youtube Links part 2](docs/youtube-links-p2-feature.jpg)
 
+### 404 Error Page
+- Image, text and button to return home for user
+
+![404 Error](docs/error-404-page-feature.jpg)
 
 
 
