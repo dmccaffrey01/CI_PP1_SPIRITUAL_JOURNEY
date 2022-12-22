@@ -524,6 +524,50 @@ footer {
     margin: 0 5px 0 5px;
 }
 
+/* Our mission section */
+
+/* Expand 5 */
+
+#expand-check-5 {
+    display: none;
+}
+
+.expand-container {
+    text-align: center;
+}
+
+#collapse-text-5, #collapse-arrow-5 {
+    display: none;
+}
+
+#expand-check-5:checked + label span, #expand-check-5:checked + label i {
+    display: inline
+}
+
+#expand-check-5:checked ~ #expand-label-5 {
+    order: 6
+}
+
+#expand-check-5:checked ~ #section-expand-5 {
+    order: 5
+}
+
+#expand-check-5:checked + label span:nth-child(1), #expand-check-5:checked + label i:nth-child(2) {
+    display: none;
+}
+
+#expand-check-5:checked ~ #expand-sample-text-5 {
+    display: none;
+}
+
+#section-expand-5 {
+    display: none;
+}
+
+#expand-check-5:checked ~ #section-expand-5 {
+    display: block;
+}
+
 /* Subscribe section */
 
 .subscribe-modal {
