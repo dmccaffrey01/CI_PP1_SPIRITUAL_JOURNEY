@@ -156,7 +156,6 @@ section {
     font-size: 2rem; 
 }
 
-
 /* Description section home page */
 
 /* Expand 1 */
@@ -873,6 +872,7 @@ footer {
     text-align: center;
     margin: 0 auto;
     box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+    transition: all 0.5s;
 }
 
 .display-card img {
@@ -894,7 +894,7 @@ footer {
     font-size: 90%;
 }
 
-.middle-display {
+.display-card:hover {
     margin: 20px auto 10px auto;
 }
 
@@ -946,7 +946,6 @@ footer {
 
 #youtubers-list {
     list-style-type: none;
-   
 }
 
 #youtubers-list li {
@@ -975,6 +974,11 @@ footer {
     background-color: var(--SKY);
     margin-left: 5px;
     box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+#youtubers-list li:hover {
+    margin-left: 100px;
+    transition: all 0.5s;
 }
 
 .profile-pic {
