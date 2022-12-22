@@ -32,7 +32,7 @@ body {
 /* Headings and Header */
 
 h1, h2 {
-    font-family: Playfair Display, sans-serif;
+    font-family: "Playfair Display", sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
 }

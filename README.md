@@ -369,7 +369,27 @@ The website consists of five pages, four are accessible through the navigation m
 
 To validate the HTML of the website, W3C Markup Validation service was used
 
-index.html [results]()
+index.html: [Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdmccaffrey01.github.io%2FCI_PP1_SPIRITUAL_JOURNEY%2Findex.html) - No Errors Found
+
+2 Warning displayed
+| **Level** | **Feature** | **Issue Description** | **Comment** |
+|-------------|-------------|----------------------|-------------|
+| Warning | `<section id="hero-image-section-hp">` | Section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections, or else use a div element instead for any cases where no heading is needed. | Section appropriately only includes hero image and quote |
+| Warning | `<section id="continue-further-section">` | Section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections, or else use a div element instead for any cases where no heading is needed. | Section appropriately only includes image and choice of buttons |
+
+
+### CSS Validation
+
+To validate the CSS of the website W3C Jigsaw CSS Validation Service was used
+
+site [results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fdmccaffrey01.github.io%2FCI_PP1_SPIRITUAL_JOURNEY%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+- No Errors Found.
+
+40 Warnings due to using CSS variables for colour as they are not statically checked.
+More information about this in the [Bugs](#bugs) section
+
+
+
  
 
 
