@@ -369,7 +369,7 @@ The website consists of five pages, four are accessible through the navigation m
 
 To validate the HTML of the website, W3C Markup Validation service was used
 
-index.html: [Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdmccaffrey01.github.io%2FCI_PP1_SPIRITUAL_JOURNEY%2Findex.html) - No Errors Found
+- index.html: [Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdmccaffrey01.github.io%2FCI_PP1_SPIRITUAL_JOURNEY%2Findex.html) - No Errors Found
 
 2 Warning displayed
 | **Level** | **Feature** | **Issue Description** | **Comment** |
@@ -377,6 +377,7 @@ index.html: [Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdmccaffrey0
 | Warning | `<section id="hero-image-section-hp">` | Section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections, or else use a div element instead for any cases where no heading is needed. | Section appropriately only includes hero image and quote |
 | Warning | `<section id="continue-further-section">` | Section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections, or else use a div element instead for any cases where no heading is needed. | Section appropriately only includes image and choice of buttons |
 
+- about-us.html: [Results]()
 
 ### CSS Validation
 
@@ -387,6 +388,35 @@ site [results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fd
 
 40 Warnings due to using CSS variables for colour as they are not statically checked.
 More information about this in the [Bugs](#bugs) section
+
+### Accessibility
+
+To ensure the website met high accessibility standards the WAVE WebAIM web accessibility evaluation tool was used
+
+- index.html: [Results](https://wave.webaim.org/report#/https://dmccaffrey01.github.io/CI_PP1_SPIRITUAL_JOURNEY/index.html)
+- about-us.html: [Results](https://wave.webaim.org/report#/https://dmccaffrey01.github.io/CI_PP1_SPIRITUAL_JOURNEY/about-us.html)
+- techniques.html: [Results](https://wave.webaim.org/report#/https://dmccaffrey01.github.io/CI_PP1_SPIRITUAL_JOURNEY/techniques.html)
+- resources.html: [Results](https://wave.webaim.org/report#/https://dmccaffrey01.github.io/CI_PP1_SPIRITUAL_JOURNEY/resources.html)
+
+All the pages mostly had the same issues
+
+#### Errors
+
+There was no errors in all the pages
+
+#### Contrast Errors
+
+All them had 4 contrast errors, which I can't see where because I made sure the contrast ratio between all colours were correct and I can't see what section is giving the errors
+
+#### Alerts
+
+The alerts are high on all pages but most of them are to do with links which I had to use CSS tricks to get around, some of them are possible heading alerts aswell
+
+### Performance
+
+Performance testing was performed on lighthouse in Google Chrome's DevTools
+
+
 
 
 
