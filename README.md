@@ -397,6 +397,8 @@ To validate the HTML of the website, W3C Markup Validation service was used
 - resources.html: [Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdmccaffrey01.github.io%2FCI_PP1_SPIRITUAL_JOURNEY%2Fresources.html)
 
 2 Warnings displayed
+| **Level** | **Feature** | **Issue Description** | **Comment** |
+|-------------|-------------|----------------------|-------------|
 | Warning | `<section id="modal-2">` | Section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections, or else use a div element instead for any cases where no heading is needed. | Section appropriately only includes modal |
 | Error | `<label for="gender" class="label-text">` | he value of the for attribute of the label element must be the ID of a non-hidden form control. | I included a div in the form to help styling |
 
