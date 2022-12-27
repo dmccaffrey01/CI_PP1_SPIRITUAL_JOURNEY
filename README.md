@@ -481,17 +481,101 @@ The website was tested on the following browsers:
 1. Google Chrome
 2. Mozilla Firefox
 
+### Testing user stories
 
+1. As a beginner meditator/first-time user, I want information on meditation,mindfulness and enlightenment, So that I can learn about these topics.
 
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Intro and Descriptions | Navigate to Home Page scroll down to intro headings, click read button | Informations is displayed on the screen | Works as expected | 
 
+<br>
+<details>
+<summary>Intro and Descriptions Results</summary>
+<br>
+<img alt="Intro and Descriptions Results" src="docs/intro-and-descriptions-results.gif">
+<br>
+</details>
+<br>
 
+2. As a beginner meditator/first-time user, I want information about what this company/website is about, So that I can understand what to do on this website.
 
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Our Mission | Navigate to About Us Page go to Our Mission section, click read button | Informations is displayed on the screen | Works as expected |
 
+<br>
+<details>
+<summary>Our Mission Results</summary>
+<br>
+<img alt="Our Mission Results" src="docs/our-mission-results.gif">
+<br>
+</details>
+<br>
 
- 
+3. As a beginner meditator/first-time user, I want to go to the company’s social media, So that I can learn more about the company
 
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Footer | Navigate to any page go to the footer section, click on the social media links | When clicked the user is directed to the company's social media | Works as expected |
+| Contact Us | Navigate to About Us Page, go to the Contact Us section, click on the social media links | When clicked the user is directed to the company's social media | Works as expected |
 
+<br>
+<details>
+<summary>Footer Results</summary>
+<br>
+<img alt="Footer Results" src="docs/footer-results.gif">
+<br>
+</details>
+<details>
+<summary>Contact Us Results</summary>
+<br>
+<img alt="Contact Us Results" src="docs/contact-us-1-results.gif">
+<br>
+</details>
+<br>
 
+4. As a beginner meditator/first-time user, I want to be able to have contact information of the company, So that I can contact and get help from the company
 
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Contact Us | Navigate to About Us Page go to Contact Us section | Informations is displayed on the screen | Works as expected |
 
+<br>
+<details>
+<summary>Contact Us Results</summary>
+<br>
+<img alt="Contact Us Results" src="docs/contact-us-2-results.gif">
+<br>
+</details>
+<br>
 
+5. As a beginner meditator/first-time user, I want information on the benefits of doing these practises, So that I can choose whether to practise and learn more
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Benefits | Navigate to Home Page go to Benefits section, click the read button | Informations is displayed on the screen | Works as expected |
+
+<br>
+<details>
+<summary>Benefits Results</summary>
+<br>
+<img alt="Benefits Results" src="docs/benefits-results.gif">
+<br>
+</details>
+<br>
+
+6. As a experienced meditator/returning user, I want information on meditation techniques, So that I can learn and practise
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Techniques Intro | Navigate to Techniques Page go to Techniques Intro section | Informations is displayed on the screen | Works as expected |
+
+<br>
+<details>
+<summary>Techniques Intro Results</summary>
+<br>
+<img alt="Techniques Intro Results" src="docs/techniques-intro-results.gif">
+<br>
+</details>
+<br>
