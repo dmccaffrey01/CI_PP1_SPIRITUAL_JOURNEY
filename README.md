@@ -653,3 +653,136 @@ The website was tested on the following browsers:
 <br>
 </details>
 <br>
+
+11. As a experienced meditator/returning user, I want a beginners guide to enlightenment and a pathway, So that I can comeback and use this resource along my journey
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Beginners Guide | Navigate to Techniques Page, go to the Beginners Guide section, click on the open button to open modal | Information is displayed on the screen in a modal | Works as expected |
+
+<br>
+<details>
+<summary>Beginners Guide Results</summary>
+<br>
+<img alt="Beginners Guide Results" src="docs/beginners-guide-results.gif">
+<br>
+</details>
+<br>
+
+12. As a experienced meditator/returning user, I want a enlightenment map, So that I can check my progress
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Maps | Navigate to Resources Page, go to the Maps of Enlightenment section | Information is displayed on the screen | Works as expected |
+
+<br>
+<details>
+<summary>Maps Results</summary>
+<br>
+<img alt="Maps Results" src="docs/maps-results.gif">
+<br>
+</details>
+<br>
+
+13. As the site owner, I want users to have an easy time navigating the website and finding information, So that they return back to the website
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Logo and Navigation Bar | Click the logo and Hamburber Menu to navigate through pages | Links to other pages on websites | Works as expected |
+
+<br>
+<details>
+<summary>Logo and Navigation Bar Results</summary>
+<br>
+<img alt="Logo and Navigation Bar Results" src="docs/logo-nav-bar-results.gif">
+<br>
+</details>
+<br>
+
+14. As the site owner, I want users to have a way of contacting and knowing the location of the company, So they can ask questions and find help
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Contact Us | Navigate to About Us Page, go to the Contact Us section | Information is displayed on the screen | Works as expected |
+
+<br>
+<details>
+<summary>Contact Us Results</summary>
+<br>
+<img alt="Contact Us Results" src="docs/contact-us-2-results.gif">
+<br>
+</details>
+<br>
+
+15. As the site owner, I want the users to know what the company is about and what service the company provides, So they can trust and return back to the website
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Our Mission | Navigate to About Us Page go to Our Mission section, click read button | Informations is displayed on the screen | Works as expected |
+
+<br>
+<details>
+<summary>Our Mission Results</summary>
+<br>
+<img alt="Our Mission Results" src="docs/our-mission-results.gif">
+<br>
+</details>
+<br>
+
+## Bugs 
+
+### Buttons
+The buttons were created using a `<div>` tag instead of just a `<a>` link tag. This means the user has to click the text and if they click around the text the button will not work.
+
+I did this at the start to make the button be styled with margin as an `<a>` tag by default can't be styled with margins, but I found a fix which is to style the `<a>` with `display: block` 
+
+This is an easy fix which takes changing the div tags to an a tag and applying the correct styling.
+
+## Deployment & Local Development
+
+The Following steps require a logged in github account.
+
+### Deployment
+Github Pages was used to deploy the live website.
+To deploy a live website using github pages these instructions can be followed [here](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site)
+
+### How to Fork
+To fork this repository:
+
+1. Go to the repository for this project.
+2. Click the Fork button in the top right corner.
+
+### How to Clone
+To clone this repository:
+
+1. Go to the repository for this project.
+2. Click on the code button, select whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link shown.
+3. Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
+4. Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter.
+
+## Credits
+
+### Code Used
+[CodingNepal](https://www.youtube.com/watch?v=oLgtucwjVII&list=PLOiTHfoth-GS5ME73e51OikLKrQney8hL&index=1&t=1s&ab_channel=CodingNepal) for help with navigation bar
+[Tyler Potts](https://www.youtube.com/watch?v=czNhJc79LZM&ab_channel=TylerPotts) for help with pop us modals
+[W3C Schools](https://www.w3schools.com/) for various CSS help
+[MDM web docs](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout) for various CSS help
+
+### Media
+
+- Most images were taken from [Pexels](https://www.pexels.com/)
+- Book recommendation images were taken from [Amazon](https://www.amazon.com/books-used-books-textbooks/b?ie=UTF8&node=283155)
+- App recommendations images were taken from the respective websites: [Waking Up](https://www.wakingup.com/), [Headspace](https://www.headspace.com/), [Calm](https://www.calm.com/)
+- Youtube Link images were taken from the respective youtube channels: [Actualized.org](https://www.youtube.com/@ActualizedOrg), [Frank Yang](https://www.youtube.com/@frankyang), [Michael Taft](https://www.youtube.com/@MichaelTaft108), [Daniel Ingram](https://www.youtube.com/results?search_query=daniel+ingram)
+
+## Acknowledgements
+
+I would like to thank and acknowledge the following people who helped me along the way in completting this project:
+
+Frank Yang - for helping with information provided on website
+
+Grace Mc Kenna - for peer reviewing and giving feedback on the website
+
+Mo Shami - for being the mentor to guide me through the project and give essential feedback
+
+Amy Connolly - for peer reviewing and giving feedback on the website
