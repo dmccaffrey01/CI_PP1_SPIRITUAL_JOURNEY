@@ -383,7 +383,7 @@ To validate the HTML of the website, W3C Markup Validation service was used
 | **Level** | **Feature** | **Issue Description** | **Comment** |
 |-------------|-------------|----------------------|-------------|
 | Warning | `<section id="modal-1">` | Section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections, or else use a div element instead for any cases where no heading is needed. | Section appropriately only includes modal |
-| Error | `<label for="gender" class="label-text">` | he value of the for attribute of the label element must be the ID of a non-hidden form control. | I included a div in the form to help styling |
+| Error | `<label for="gender" class="label-text">` | The value of the for attribute of the label element must be the ID of a non-hidden form control. | I included a div in the form to help styling |
 
 - techniques.html: [Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdmccaffrey01.github.io%2FCI_PP1_SPIRITUAL_JOURNEY%2Ftechniques.html)
 
@@ -392,7 +392,7 @@ To validate the HTML of the website, W3C Markup Validation service was used
 |-------------|-------------|----------------------|-------------|
 | Warning | `<section id="techniques-intro">` | Section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections, or else use a div element instead for any cases where no heading is needed. | Section appropriately only includes introduction |
 | Warning | `<section id="modal-2">` | Section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections, or else use a div element instead for any cases where no heading is needed. | Section appropriately only includes modal |
-| Error | `<label for="gender" class="label-text">` | he value of the for attribute of the label element must be the ID of a non-hidden form control. | I included a div in the form to help styling |
+| Error | `<label for="gender" class="label-text">` | The value of the for attribute of the label element must be the ID of a non-hidden form control. | I included a div in the form to help styling |
 
 - resources.html: [Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdmccaffrey01.github.io%2FCI_PP1_SPIRITUAL_JOURNEY%2Fresources.html)
 
@@ -400,7 +400,17 @@ To validate the HTML of the website, W3C Markup Validation service was used
 | **Level** | **Feature** | **Issue Description** | **Comment** |
 |-------------|-------------|----------------------|-------------|
 | Warning | `<section id="modal-2">` | Section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections, or else use a div element instead for any cases where no heading is needed. | Section appropriately only includes modal |
-| Error | `<label for="gender" class="label-text">` | he value of the for attribute of the label element must be the ID of a non-hidden form control. | I included a div in the form to help styling |
+| Error | `<label for="gender" class="label-text">` | The value of the for attribute of the label element must be the ID of a non-hidden form control. | I included a div in the form to help styling |
+
+- 404.html: [Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdmccaffrey01.github.io%2FCI_PP1_SPIRITUAL_JOURNEY%2F404.html)
+
+0 Warnings displayed
+| **Level** | **Feature** | **Issue Description** | **Comment** |
+|-------------|-------------|----------------------|-------------|
+
+#### Errors
+
+HTML validation had the same error accross the three pages, it is caused by the gender label in the form for the subscribe modals. There is an error because I used a div to style the radio buttons that are linked to this label. I want the two radio buttons to be in a div but this causes the error
 
 ### CSS Validation
 
@@ -420,6 +430,7 @@ To ensure the website met high accessibility standards the WAVE WebAIM web acces
 - about-us.html: [Results](https://wave.webaim.org/report#/https://dmccaffrey01.github.io/CI_PP1_SPIRITUAL_JOURNEY/about-us.html)
 - techniques.html: [Results](https://wave.webaim.org/report#/https://dmccaffrey01.github.io/CI_PP1_SPIRITUAL_JOURNEY/techniques.html)
 - resources.html: [Results](https://wave.webaim.org/report#/https://dmccaffrey01.github.io/CI_PP1_SPIRITUAL_JOURNEY/resources.html)
+- 404.html: [Results](https://wave.webaim.org/report#/https://dmccaffrey01.github.io/CI_PP1_SPIRITUAL_JOURNEY/404.html)
 
 All the pages mostly had the same issues
 
@@ -463,6 +474,13 @@ No issues
 #### resources.html
 
 ![Lighthouse summary image for resources page](docs/resources-lighthouse-performance.jpg)
+
+Issues:
+No issues
+
+#### 404.html
+
+![Lighthouse summary image for 404 page](docs/404-lighthouse.jpg)
 
 Issues:
 No issues
