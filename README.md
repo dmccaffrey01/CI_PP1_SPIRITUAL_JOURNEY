@@ -79,7 +79,7 @@
 6. As a experienced meditator/returning user, I want information on meditation techniques, So that I can learn and practise
 7. As a experienced meditator/returning user, I want book recommendations on these topics, So that I can continue to learn and practise more
 8. As a experienced meditator/returning user, I want app recommendations and info, So that I can continue to learn and practise more
-9.  I want retreat recommendations and info, So that I can further my progress
+9. As a experienced meditator/returning user, I want retreat recommendations and info, So that I can further my progress
 10. As a experienced meditator/returning user, I want a feature where I can receive more information on a weekly basis, So that I can continue to learn and practise more
 11. As a experienced meditator/returning user, I want a beginners guide to enlightenment and a pathway, So that I can comeback and use this resource along my journey
 12. As a experienced meditator/returning user, I want a enlightenment map, So that I can check my progress
@@ -569,13 +569,87 @@ The website was tested on the following browsers:
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| Techniques Intro | Navigate to Techniques Page go to Techniques Intro section | Informations is displayed on the screen | Works as expected |
+| Techniques Intro | Navigate to Techniques Page go to Techniques Intro section | Informations is displayed on the screen | Works as expected |#
+| Generating Peace Practices | Navigate to Techniques Page go to Generating Peace section, click the open button to open modal | Informations is displayed on the screen as modal | Works as expected |
+| Generating Self Knowledge Practices | Navigate to Techniques Page go to Generating Self Knowledge section, click the open button to open modal | Informations is displayed on the screen as modal | Works as expected |
 
 <br>
 <details>
 <summary>Techniques Intro Results</summary>
 <br>
 <img alt="Techniques Intro Results" src="docs/techniques-intro-results.gif">
+<br>
+</details>
+<details>
+<summary>Generating Peace Practices Results</summary>
+<br>
+<img alt="Generating Peace Practices Results" src="docs/generating-peace-practices-results.gif">
+<br>
+</details>
+<details>
+<summary>Generating Self Knowledge Practices Results</summary>
+<br>
+<img alt="Generating Self Knowledge Practices Results" src="docs/generating-self-knowledge-practices-results.gif">
+<br>
+</details>
+<br>
+
+7. As a experienced meditator/returning user, I want book recommendations on these topics, So that I can continue to learn and practise more
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Book Recommendations | Navigate to Resources Page go to Book Recommendations section | Information cards are displayed on the screen | Works as expected |
+
+<br>
+<details>
+<summary>Book Recommendations Results</summary>
+<br>
+<img alt="Book Recommendations Results" src="docs/book-recommendations-results.gif">
+<br>
+</details>
+<br>
+
+8. As a experienced meditator/returning user, I want app recommendations and info, So that I can continue to learn and practise more
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| App Recommendations | Navigate to Resources Page go to App Recommendations section | Information cards are displayed on the screen | Works as expected |
+
+<br>
+<details>
+<summary>App Recommendations Results</summary>
+<br>
+<img alt="App Recommendations Results" src="docs/app-recommendations-results.gif">
+<br>
+</details>
+<br>
+
+9. As a experienced meditator/returning user, I want retreat recommendations and info, So that I can further my progress
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Retreats | Navigate to Resources Page go to Meditation Retreats section | Information is displayed on the screen | Works as expected |
+
+<br>
+<details>
+<summary>Retreats Results</summary>
+<br>
+<img alt="Retreats Results" src="docs/retreats-results.gif">
+<br>
+</details>
+<br>
+
+10. As a experienced meditator/returning user, I want a feature where I can receive more information on a weekly basis, So that I can continue to learn and practise more
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Subscribe | Navigate to About Us Page, Techniques Page or Resources Page go to Subscribe section, click on subscribe button to open subscribe form modal | Information is displayed on the screen and form can be filled out and submitted | Works as expected |
+
+<br>
+<details>
+<summary>Subscribe Results</summary>
+<br>
+<img alt="Subscribe Results" src="docs/subscribe-results.gif">
 <br>
 </details>
 <br>

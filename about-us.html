@@ -116,7 +116,7 @@
         <div class="subscribe-modal" id="subscribe-modal-1">
             <div class="modal-inner">
                 <a href="#close" class="close-btn">&times;</a>
-                <form action="https://formdump.codeinstitute.net/" class="modal-text">
+                <form action="https://formdump.codeinstitute.net/" class="modal-text" method="post">
                     <label for="name" class="label-text">Name</label>
                     <input type="text" name="name" id="name" class="input-text">
                     <label for="email" class="label-text">Email</label>
@@ -131,11 +131,15 @@
                         <option value="35+">35+</option>
                     </select>
                     <label for="gender" class="label-text">Gender</label>
-                    <input type="radio" id="male" name="gender" value="male" class="radio-btn">
-                    <label for="male" class="radio-text">Male</label>
-                    <input type="radio" id="female" name="gender" value="female" class="radio-btn">
-                    <label for="female" class="radio-text">Female</label>
-                    <input type="button" class="submit-btn" value="Submit">
+                    <div class="radio-container" id="gender">
+                        <input type="radio" id="male" name="gender" value="male" class="radio-btn">
+                        <label for="male" class="radio-text">Male</label>
+                    </div>
+                    <div class="radio-container">
+                        <input type="radio" id="female" name="gender" value="female" class="radio-btn">
+                        <label for="female" class="radio-text">Female</label>
+                    </div>
+                    <input type="submit" class="submit-btn" value="Submit">
                 </form>
             </div>
         </div>
