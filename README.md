@@ -494,6 +494,10 @@ The website was tested on the following browsers:
 <summary>Intro and Descriptions Results</summary>
 <br>
 <img alt="Intro and Descriptions Results" src="docs/intro-and-descriptions-results.gif">
+<img alt="Intro and Descriptions Screenshot 1" src="docs/navigate-click-menu.jpg">
+<img alt="Intro and Descriptions Screenshot 2" src="docs/nav-menu-home.jpg">
+<img alt="Intro and Descriptions Screenshot 4" src="docs/intro-descriptions-ss4.jpg">
+<img alt="Intro and Descriptions Screenshot 3" src="docs/intro-descriptions-ss3.jpg">
 <br>
 </details>
 <br>
@@ -509,6 +513,9 @@ The website was tested on the following browsers:
 <summary>Our Mission Results</summary>
 <br>
 <img alt="Our Mission Results" src="docs/our-mission-results.gif">
+<img alt="Our Mission Screenshot 1" src="docs/navigate-click-menu.jpg">
+<img alt="Our Mission Screenshot 2" src="docs/nav-menu-about-us.jpg">
+<img alt="Our Mission Screenshot 3" src="docs/our-mission-ss3.jpg">
 <br>
 </details>
 <br>
@@ -531,6 +538,9 @@ The website was tested on the following browsers:
 <summary>Contact Us Results</summary>
 <br>
 <img alt="Contact Us Results" src="docs/contact-us-1-results.gif">
+<img alt="Contact Us Screenshot 1" src="docs/navigate-click-menu.jpg">
+<img alt="Contact Us Screenshot 2" src="docs/nav-menu-about-us.jpg">
+<img alt="Contact Us Screenshot 3" src="docs/contact-us-ss3.jpg">
 <br>
 </details>
 <br>
@@ -546,6 +556,9 @@ The website was tested on the following browsers:
 <summary>Contact Us Results</summary>
 <br>
 <img alt="Contact Us Results" src="docs/contact-us-2-results.gif">
+<img alt="Contact Us Screenshot 1" src="docs/navigate-click-menu.jpg">
+<img alt="Contact Us Screenshot 2" src="docs/nav-menu-about-us.jpg">
+<img alt="Contact Us Screenshot 3" src="docs/contact-us-ss3.jpg">
 <br>
 </details>
 <br>
@@ -561,6 +574,10 @@ The website was tested on the following browsers:
 <summary>Benefits Results</summary>
 <br>
 <img alt="Benefits Results" src="docs/benefits-results.gif">
+<img alt="Benefits Screenshot 1" src="docs/navigate-click-menu.jpg">
+<img alt="Benefits Screenshot 2" src="docs/nav-menu-home.jpg">
+<img alt="Benefits Screenshot 3" src="docs/benefits-ss3.jpg">
+<img alt="Benefits Screenshot 4" src="docs/benefits-ss4.jpg">
 <br>
 </details>
 <br>
@@ -578,18 +595,29 @@ The website was tested on the following browsers:
 <summary>Techniques Intro Results</summary>
 <br>
 <img alt="Techniques Intro Results" src="docs/techniques-intro-results.gif">
+<img alt="Techniques Intro Screenshot 1" src="docs/navigate-click-menu.jpg">
+<img alt="Techniques Intro Screenshot 2" src="docs/nav-menu-techniques.jpg">
 <br>
 </details>
 <details>
 <summary>Generating Peace Practices Results</summary>
 <br>
 <img alt="Generating Peace Practices Results" src="docs/generating-peace-practices-results.gif">
+<img alt="Generating Peace Practices Screenshot 1" src="docs/navigate-click-menu.jpg">
+<img alt="Generating Peace Practices Screenshot 2" src="docs/nav-menu-techniques.jpg">
+<img alt="Generating Peace Practices Screenshot 3" src="docs/techniques-scroll.jpg">
+<img alt="Generating Peace Practices Screenshot 4" src="docs/generating-peace-ss4.jpg">
+
 <br>
 </details>
 <details>
 <summary>Generating Self Knowledge Practices Results</summary>
 <br>
 <img alt="Generating Self Knowledge Practices Results" src="docs/generating-self-knowledge-practices-results.gif">
+<img alt="Generating Self Knowledge Practices Screenshot 1" src="docs/navigate-click-menu.jpg">
+<img alt="Generating Self Knowledge Practices Screenshot 2" src="docs/nav-menu-techniques.jpg">
+<img alt="Generating Self Knowledge Practices Screenshot 3" src="docs/techniques-scroll.jpg">
+<img alt="Generating Self Knowledge Practices Screenshot 4" src="docs/generating-knowledge-ss4.jpg">
 <br>
 </details>
 <br>
@@ -605,6 +633,8 @@ The website was tested on the following browsers:
 <summary>Book Recommendations Results</summary>
 <br>
 <img alt="Book Recommendations Results" src="docs/book-recommendations-results.gif">
+<img alt="Book Recommendations Screenshot 1" src="docs/navigate-click-menu.jpg">
+<img alt="Book Recommendations Screenshot 2" src="docs/nav-menu-resources.jpg">
 <br>
 </details>
 <br>
@@ -620,6 +650,8 @@ The website was tested on the following browsers:
 <summary>App Recommendations Results</summary>
 <br>
 <img alt="App Recommendations Results" src="docs/app-recommendations-results.gif">
+<img alt="App Recommendations Screenshot 1" src="docs/navigate-click-menu.jpg">
+<img alt="App Recommendations Screenshot 2" src="docs/nav-menu-resources.jpg">
 <br>
 </details>
 <br>
@@ -635,6 +667,8 @@ The website was tested on the following browsers:
 <summary>Retreats Results</summary>
 <br>
 <img alt="Retreats Results" src="docs/retreats-results.gif">
+<img alt="Retreats Screenshot 1" src="docs/navigate-click-menu.jpg">
+<img alt="Retreats Screenshot 2" src="docs/nav-menu-resources.jpg">
 <br>
 </details>
 <br>
@@ -650,6 +684,9 @@ The website was tested on the following browsers:
 <summary>Subscribe Results</summary>
 <br>
 <img alt="Subscribe Results" src="docs/subscribe-results.gif">
+<img alt="Subscribe Screenshot 1" src="docs/navigate-click-menu.jpg">
+<img alt="Subscribe Screenshot 2" src="docs/nav-menu-about-us.jpg">
+<img alt="Subscribe Screenshot 3" src="docs/subscribe-ss3.jpg">
 <br>
 </details>
 <br>
@@ -665,6 +702,10 @@ The website was tested on the following browsers:
 <summary>Beginners Guide Results</summary>
 <br>
 <img alt="Beginners Guide Results" src="docs/beginners-guide-results.gif">
+<img alt="Retreats Screenshot 1" src="docs/navigate-click-menu.jpg">
+<img alt="Retreats Screenshot 2" src="docs/nav-menu-techniques.jpg">
+<img alt="Retreats Screenshot 3" src="docs/techniques-scroll.jpg">
+<img alt="Retreats Screenshot 4" src="docs/guide-ss4.jpg">
 <br>
 </details>
 <br>
@@ -680,6 +721,8 @@ The website was tested on the following browsers:
 <summary>Maps Results</summary>
 <br>
 <img alt="Maps Results" src="docs/maps-results.gif">
+<img alt="Maps Screenshot 1" src="docs/navigate-click-menu.jpg">
+<img alt="Maps Screenshot 2" src="docs/nav-menu-resources.jpg">
 <br>
 </details>
 <br>
@@ -695,6 +738,8 @@ The website was tested on the following browsers:
 <summary>Logo and Navigation Bar Results</summary>
 <br>
 <img alt="Logo and Navigation Bar Results" src="docs/logo-nav-bar-results.gif">
+<img alt="Nav Bar Screenshot 1" src="docs/navigate-click-menu.jpg">
+<img alt="Nav Bar Screenshot 2" src="docs/nav-menu-resources.jpg">
 <br>
 </details>
 <br>
@@ -710,6 +755,9 @@ The website was tested on the following browsers:
 <summary>Contact Us Results</summary>
 <br>
 <img alt="Contact Us Results" src="docs/contact-us-2-results.gif">
+<img alt="Contact Us Screenshot 1" src="docs/navigate-click-menu.jpg">
+<img alt="Contact Us Screenshot 2" src="docs/nav-menu-about-us.jpg">
+<img alt="Contact Us Screenshot 3" src="docs/contact-us-ss3.jpg">
 <br>
 </details>
 <br>
@@ -725,6 +773,9 @@ The website was tested on the following browsers:
 <summary>Our Mission Results</summary>
 <br>
 <img alt="Our Mission Results" src="docs/our-mission-results.gif">
+<img alt="Our Mission Screenshot 1" src="docs/navigate-click-menu.jpg">
+<img alt="Our Mission Screenshot 2" src="docs/nav-menu-about-us.jpg">
+<img alt="Our Mission Screenshot 3" src="docs/our-mission-ss3.jpg">
 <br>
 </details>
 <br>
